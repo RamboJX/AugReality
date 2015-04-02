@@ -1,0 +1,1398 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BB39C86C19905902001982B3 /* objExport.h in Headers */ = {isa = PBXBuildFile; fileRef = BB39C85F19905902001982B3 /* objExport.h */; };
+		BB39C86D19905902001982B3 /* pluginMain.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB39C86019905902001982B3 /* pluginMain.cpp */; };
+		BB39C87019905902001982B3 /* trangulateCmd.h in Headers */ = {isa = PBXBuildFile; fileRef = BB39C86319905902001982B3 /* trangulateCmd.h */; };
+		BB39C87119905902001982B3 /* triangulateCmd.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB39C86419905902001982B3 /* triangulateCmd.cpp */; };
+		BB3ABBA819AD3B7D0071F7C6 /* objExport.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB3ABBA719AD3B7D0071F7C6 /* objExport.cpp */; };
+		BB3E50DE19B7978200D0EED3 /* recordCameraTrace.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB3E50DC19B7978200D0EED3 /* recordCameraTrace.cpp */; };
+		BB3E50DF19B7978200D0EED3 /* recordCameraTrace.h in Headers */ = {isa = PBXBuildFile; fileRef = BB3E50DD19B7978200D0EED3 /* recordCameraTrace.h */; };
+		BB80759619AC3F81009AA92F /* objExport.h in Sources */ = {isa = PBXBuildFile; fileRef = BB39C85F19905902001982B3 /* objExport.h */; };
+		BB80759819AC3F81009AA92F /* trangulateCmd.h in Sources */ = {isa = PBXBuildFile; fileRef = BB39C86319905902001982B3 /* trangulateCmd.h */; };
+		BBFB172719775A4F00326C08 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBFB172619775A4F00326C08 /* CoreFoundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BB39C85F19905902001982B3 /* objExport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = objExport.h; path = src/objExport.h; sourceTree = "<group>"; };
+		BB39C86019905902001982B3 /* pluginMain.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = pluginMain.cpp; path = src/pluginMain.cpp; sourceTree = "<group>"; };
+		BB39C86319905902001982B3 /* trangulateCmd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = trangulateCmd.h; path = src/trangulateCmd.h; sourceTree = "<group>"; };
+		BB39C86419905902001982B3 /* triangulateCmd.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = triangulateCmd.cpp; path = src/triangulateCmd.cpp; sourceTree = "<group>"; };
+		BB3ABBA719AD3B7D0071F7C6 /* objExport.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = objExport.cpp; path = src/objExport.cpp; sourceTree = "<group>"; };
+		BB3E50DC19B7978200D0EED3 /* recordCameraTrace.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = recordCameraTrace.cpp; path = src/recordCameraTrace.cpp; sourceTree = "<group>"; };
+		BB3E50DD19B7978200D0EED3 /* recordCameraTrace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = recordCameraTrace.h; path = src/recordCameraTrace.h; sourceTree = "<group>"; };
+		BB73160A197ED27B00806643 /* adskCheckpointed.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = adskCheckpointed.h; sourceTree = "<group>"; };
+		BB73160B197ED27B00806643 /* adskCommon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = adskCommon.h; sourceTree = "<group>"; };
+		BB73160C197ED27B00806643 /* adskDataAccessor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = adskDataAccessor.h; sourceTree = "<group>"; };
+		BB73160D197ED27B00806643 /* adskDataAccessorMaya.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = adskDataAccessorMaya.h; sourceTree = "<group>"; };
+		BB73160E197ED27B00806643 /* adskDataAssociations.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = adskDataAssociations.h; sourceTree = "<group>"; };
+		BB73160F197ED27B00806643 /* adskDataAssociationsIterator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = adskDataAssociationsIterator.h; sourceTree = "<group>"; };
+		BB731610197ED27B00806643 /* adskDataAssociationsSerializer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = adskDataAssociationsSerializer.h; sourceTree = "<group>"; };
+		BB731611197ED27B00806643 /* adskDataAttach.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = adskDataAttach.h; sourceTree = "<group>"; };
+		BB731612197ED27B00806643 /* adskDataAttachDirectly.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = adskDataAttachDirectly.h; sourceTree = "<group>"; };
+		BB731613197ED27B00806643 /* adskDataChannel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = adskDataChannel.h; sourceTree = "<group>"; };
+		BB731614197ED27B00806643 /* adskDataChannelIterator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = adskDataChannelIterator.h; sourceTree = "<group>"; };
+		BB731615197ED27B00806643 /* adskDataChannelSerializer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = adskDataChannelSerializer.h; sourceTree = "<group>"; };
+		BB731616197ED27B00806643 /* adskDataHandle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = adskDataHandle.h; sourceTree = "<group>"; };
+		BB731617197ED27B00806643 /* adskDataIndex.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = adskDataIndex.h; sourceTree = "<group>"; };
+		BB731618197ED27B00806643 /* adskDataIndexPair.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = adskDataIndexPair.h; sourceTree = "<group>"; };
+		BB731619197ED27B00806643 /* adskDataIndexString.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = adskDataIndexString.h; sourceTree = "<group>"; };
+		BB73161A197ED27B00806643 /* adskDataIndexType.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = adskDataIndexType.h; sourceTree = "<group>"; };
+		BB73161B197ED27B00806643 /* adskDataMember.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = adskDataMember.h; sourceTree = "<group>"; };
+		BB73161C197ED27B00806643 /* adskDataSerializer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = adskDataSerializer.h; sourceTree = "<group>"; };
+		BB73161D197ED27B00806643 /* adskDataStream.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = adskDataStream.h; sourceTree = "<group>"; };
+		BB73161E197ED27B00806643 /* adskDataStreamIterator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = adskDataStreamIterator.h; sourceTree = "<group>"; };
+		BB73161F197ED27B00806643 /* adskDataStreamSerializer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = adskDataStreamSerializer.h; sourceTree = "<group>"; };
+		BB731620197ED27B00806643 /* adskDataStructure.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = adskDataStructure.h; sourceTree = "<group>"; };
+		BB731621197ED27B00806643 /* adskDataStructureIterator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = adskDataStructureIterator.h; sourceTree = "<group>"; };
+		BB731622197ED27B00806643 /* adskDataStructureSerializer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = adskDataStructureSerializer.h; sourceTree = "<group>"; };
+		BB731623197ED27B00806643 /* adskDataStructureSerializerDebug.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = adskDataStructureSerializerDebug.h; sourceTree = "<group>"; };
+		BB731624197ED27B00806643 /* adskDebugCount.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = adskDebugCount.h; sourceTree = "<group>"; };
+		BB731625197ED27B00806643 /* adskDebugCRTP.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = adskDebugCRTP.h; sourceTree = "<group>"; };
+		BB731626197ED27B00806643 /* adskDebugCRTPImpl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = adskDebugCRTPImpl.h; sourceTree = "<group>"; };
+		BB731627197ED27B00806643 /* adskDebugFootprint.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = adskDebugFootprint.h; sourceTree = "<group>"; };
+		BB731628197ED27B00806643 /* adskDebugPrint.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = adskDebugPrint.h; sourceTree = "<group>"; };
+		BB731629197ED27B00806643 /* adskRefCounted.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = adskRefCounted.h; sourceTree = "<group>"; };
+		BB73162A197ED27B00806643 /* d3dx11effect.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = d3dx11effect.h; sourceTree = "<group>"; };
+		BB73162B197ED27B00806643 /* d3dxGlobal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = d3dxGlobal.h; sourceTree = "<group>"; };
+		BB73162C197ED27B00806643 /* flib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = flib.h; sourceTree = "<group>"; };
+		BB73162D197ED27B00806643 /* flib8.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = flib8.h; sourceTree = "<group>"; };
+		BB73162E197ED27B00806643 /* glext.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = glext.h; sourceTree = "<group>"; };
+		BB73162F197ED27B00806643 /* ilib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ilib.h; sourceTree = "<group>"; };
+		BB731630197ED27B00806643 /* M3dView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = M3dView.h; sourceTree = "<group>"; };
+		BB731631197ED27B00806643 /* MAddRemoveAttrEdit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MAddRemoveAttrEdit.h; sourceTree = "<group>"; };
+		BB731632197ED27B00806643 /* MAngle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MAngle.h; sourceTree = "<group>"; };
+		BB731633197ED27B00806643 /* MAnimControl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MAnimControl.h; sourceTree = "<group>"; };
+		BB731634197ED27B00806643 /* MAnimCurveChange.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MAnimCurveChange.h; sourceTree = "<group>"; };
+		BB731635197ED27B00806643 /* MAnimCurveClipboard.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MAnimCurveClipboard.h; sourceTree = "<group>"; };
+		BB731636197ED27B00806643 /* MAnimCurveClipboardItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MAnimCurveClipboardItem.h; sourceTree = "<group>"; };
+		BB731637197ED27B00806643 /* MAnimCurveClipboardItemArray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MAnimCurveClipboardItemArray.h; sourceTree = "<group>"; };
+		BB731638197ED27B00806643 /* MAnimMessage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MAnimMessage.h; sourceTree = "<group>"; };
+		BB731639197ED27B00806643 /* MAnimUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MAnimUtil.h; sourceTree = "<group>"; };
+		BB73163A197ED27B00806643 /* MApiVersion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MApiVersion.h; sourceTree = "<group>"; };
+		BB73163B197ED27B00806643 /* MArgDatabase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MArgDatabase.h; sourceTree = "<group>"; };
+		BB73163C197ED27B00806643 /* MArgList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MArgList.h; sourceTree = "<group>"; };
+		BB73163D197ED27B00806643 /* MArgParser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MArgParser.h; sourceTree = "<group>"; };
+		BB73163E197ED27B00806643 /* MArrayDataBuilder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MArrayDataBuilder.h; sourceTree = "<group>"; };
+		BB73163F197ED27B00806643 /* MArrayDataHandle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MArrayDataHandle.h; sourceTree = "<group>"; };
+		BB731640197ED27B00806643 /* MAtomic.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MAtomic.h; sourceTree = "<group>"; };
+		BB731641197ED27B00806643 /* MAttributeIndex.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MAttributeIndex.h; sourceTree = "<group>"; };
+		BB731642197ED27B00806643 /* MAttributePattern.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MAttributePattern.h; sourceTree = "<group>"; };
+		BB731643197ED27B00806643 /* MAttributePatternArray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MAttributePatternArray.h; sourceTree = "<group>"; };
+		BB731644197ED27B00806643 /* MAttributeSpec.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MAttributeSpec.h; sourceTree = "<group>"; };
+		BB731645197ED27B00806643 /* MAttributeSpecArray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MAttributeSpecArray.h; sourceTree = "<group>"; };
+		BB731646197ED27B00806643 /* MBoundingBox.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MBoundingBox.h; sourceTree = "<group>"; };
+		BB731647197ED27B00806643 /* MCacheFormatDescription.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MCacheFormatDescription.h; sourceTree = "<group>"; };
+		BB731648197ED27B00806643 /* MCallbackIdArray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MCallbackIdArray.h; sourceTree = "<group>"; };
+		BB731649197ED27B00806643 /* MCameraSetMessage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MCameraSetMessage.h; sourceTree = "<group>"; };
+		BB73164A197ED27B00806643 /* MClothConstraint.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MClothConstraint.h; sourceTree = "<group>"; };
+		BB73164B197ED27B00806643 /* MClothConstraintBridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MClothConstraintBridge.h; sourceTree = "<group>"; };
+		BB73164C197ED27B00806643 /* MClothConstraintCmd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MClothConstraintCmd.h; sourceTree = "<group>"; };
+		BB73164D197ED27B00806643 /* MClothControl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MClothControl.h; sourceTree = "<group>"; };
+		BB73164E197ED27B00806643 /* MClothEdge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MClothEdge.h; sourceTree = "<group>"; };
+		BB73164F197ED27B00806643 /* MClothForce.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MClothForce.h; sourceTree = "<group>"; };
+		BB731650197ED27B00806643 /* MClothMaterial.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MClothMaterial.h; sourceTree = "<group>"; };
+		BB731651197ED27B00806643 /* MClothParticle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MClothParticle.h; sourceTree = "<group>"; };
+		BB731652197ED27B00806643 /* MClothPolyhedron.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MClothPolyhedron.h; sourceTree = "<group>"; };
+		BB731653197ED27B00806643 /* MClothSolverRegister.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MClothSolverRegister.h; sourceTree = "<group>"; };
+		BB731654197ED27B00806643 /* MClothSystem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MClothSystem.h; sourceTree = "<group>"; };
+		BB731655197ED27B00806643 /* MClothTriangle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MClothTriangle.h; sourceTree = "<group>"; };
+		BB731656197ED27B00806643 /* MClothTypes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MClothTypes.h; sourceTree = "<group>"; };
+		BB731657197ED27B00806643 /* MColor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MColor.h; sourceTree = "<group>"; };
+		BB731658197ED27B00806643 /* MColorArray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MColorArray.h; sourceTree = "<group>"; };
+		BB731659197ED27B00806643 /* MCommandMessage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MCommandMessage.h; sourceTree = "<group>"; };
+		BB73165A197ED27C00806643 /* MCommandResult.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MCommandResult.h; sourceTree = "<group>"; };
+		BB73165B197ED27C00806643 /* MCommonRenderSettingsData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MCommonRenderSettingsData.h; sourceTree = "<group>"; };
+		BB73165C197ED27C00806643 /* MCommonSystemUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MCommonSystemUtils.h; sourceTree = "<group>"; };
+		BB73165D197ED27C00806643 /* MComponentDataIndexing.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MComponentDataIndexing.h; sourceTree = "<group>"; };
+		BB73165E197ED27C00806643 /* MComputation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MComputation.h; sourceTree = "<group>"; };
+		BB73165F197ED27C00806643 /* MConditionMessage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MConditionMessage.h; sourceTree = "<group>"; };
+		BB731660197ED27C00806643 /* MConnectDisconnectAttrEdit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MConnectDisconnectAttrEdit.h; sourceTree = "<group>"; };
+		BB731661197ED27C00806643 /* MContainerMessage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MContainerMessage.h; sourceTree = "<group>"; };
+		BB731662197ED27C00806643 /* MCursor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MCursor.h; sourceTree = "<group>"; };
+		BB731663197ED27C00806643 /* MD3D9Renderer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MD3D9Renderer.h; sourceTree = "<group>"; };
+		BB731664197ED27C00806643 /* MDagMessage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDagMessage.h; sourceTree = "<group>"; };
+		BB731665197ED27C00806643 /* MDagModifier.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDagModifier.h; sourceTree = "<group>"; };
+		BB731666197ED27C00806643 /* MDagPath.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDagPath.h; sourceTree = "<group>"; };
+		BB731667197ED27C00806643 /* MDagPathArray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDagPathArray.h; sourceTree = "<group>"; };
+		BB731668197ED27C00806643 /* MDataBlock.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDataBlock.h; sourceTree = "<group>"; };
+		BB731669197ED27C00806643 /* MDataHandle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDataHandle.h; sourceTree = "<group>"; };
+		BB73166A197ED27C00806643 /* MDeviceChannel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDeviceChannel.h; sourceTree = "<group>"; };
+		BB73166B197ED27C00806643 /* MDeviceState.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDeviceState.h; sourceTree = "<group>"; };
+		BB73166C197ED27C00806643 /* MDGContext.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDGContext.h; sourceTree = "<group>"; };
+		BB73166D197ED27C00806643 /* MDGMessage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDGMessage.h; sourceTree = "<group>"; };
+		BB73166E197ED27C00806643 /* MDGModifier.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDGModifier.h; sourceTree = "<group>"; };
+		BB73166F197ED27C00806643 /* MDistance.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDistance.h; sourceTree = "<group>"; };
+		BB731670197ED27C00806643 /* MDoubleArray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDoubleArray.h; sourceTree = "<group>"; };
+		BB731671197ED27C00806643 /* MDrawContext.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDrawContext.h; sourceTree = "<group>"; };
+		BB731672197ED27C00806643 /* MDrawData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDrawData.h; sourceTree = "<group>"; };
+		BB731673197ED27C00806643 /* MDrawInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDrawInfo.h; sourceTree = "<group>"; };
+		BB731674197ED27C00806643 /* MDrawProcedureBase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDrawProcedureBase.h; sourceTree = "<group>"; };
+		BB731675197ED27C00806643 /* MDrawRegistry.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDrawRegistry.h; sourceTree = "<group>"; };
+		BB731676197ED27C00806643 /* MDrawRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDrawRequest.h; sourceTree = "<group>"; };
+		BB731677197ED27C00806643 /* MDrawRequestQueue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDrawRequestQueue.h; sourceTree = "<group>"; };
+		BB731678197ED27C00806643 /* MDrawTraversal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDrawTraversal.h; sourceTree = "<group>"; };
+		BB731679197ED27C00806643 /* MDynamicsUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDynamicsUtil.h; sourceTree = "<group>"; };
+		BB73167A197ED27C00806643 /* MDynSweptLine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDynSweptLine.h; sourceTree = "<group>"; };
+		BB73167B197ED27C00806643 /* MDynSweptTriangle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDynSweptTriangle.h; sourceTree = "<group>"; };
+		BB73167C197ED27C00806643 /* MEdit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MEdit.h; sourceTree = "<group>"; };
+		BB73167D197ED27C00806643 /* MEulerRotation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MEulerRotation.h; sourceTree = "<group>"; };
+		BB73167E197ED27C00806643 /* MEvent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MEvent.h; sourceTree = "<group>"; };
+		BB73167F197ED27C00806643 /* MEventMessage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MEventMessage.h; sourceTree = "<group>"; };
+		BB731680197ED27C00806643 /* MExternalContentInfoTable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MExternalContentInfoTable.h; sourceTree = "<group>"; };
+		BB731681197ED27C00806643 /* MExternalContentLocationTable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MExternalContentLocationTable.h; sourceTree = "<group>"; };
+		BB731682197ED27C00806643 /* MExternalDropCallback.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MExternalDropCallback.h; sourceTree = "<group>"; };
+		BB731683197ED27C00806643 /* MExternalDropData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MExternalDropData.h; sourceTree = "<group>"; };
+		BB731684197ED27C00806643 /* MFcurveEdit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MFcurveEdit.h; sourceTree = "<group>"; };
+		BB731685197ED27C00806643 /* MFeedbackLine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MFeedbackLine.h; sourceTree = "<group>"; };
+		BB731686197ED27C00806643 /* MFileIO.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MFileIO.h; sourceTree = "<group>"; };
+		BB731687197ED27C00806643 /* MFileObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MFileObject.h; sourceTree = "<group>"; };
+		BB731688197ED27C00806643 /* MFloatArray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MFloatArray.h; sourceTree = "<group>"; };
+		BB731689197ED27C00806643 /* MFloatMatrix.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MFloatMatrix.h; sourceTree = "<group>"; };
+		BB73168A197ED27C00806643 /* MFloatPoint.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MFloatPoint.h; sourceTree = "<group>"; };
+		BB73168B197ED27C00806643 /* MFloatPointArray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MFloatPointArray.h; sourceTree = "<group>"; };
+		BB73168C197ED27C00806643 /* MFloatVector.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MFloatVector.h; sourceTree = "<group>"; };
+		BB73168D197ED27C00806643 /* MFloatVectorArray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MFloatVectorArray.h; sourceTree = "<group>"; };
+		BB73168E197ED27C00806643 /* MFn.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MFn.h; sourceTree = "<group>"; };
+		BB73168F197ED27C00806643 /* MFnAirField.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MFnAirField.h; sourceTree = "<group>"; };
+		BB731690197ED27C00806643 /* MFnAmbientLight.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MFnAmbientLight.h; sourceTree = "<group>"; };
+		BB731691197ED27C00806643 /* MFnAnimCurve.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MFnAnimCurve.h; sourceTree = "<group>"; };
+		BB731692197ED27C00806643 /* MFnAnisotropyShader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MFnAnisotropyShader.h; sourceTree = "<group>"; };
+		BB731693197ED27C00806643 /* MFnAreaLight.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MFnAreaLight.h; sourceTree = "<group>"; };
+		BB731694197ED27C00806643 /* MFnArrayAttrsData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MFnArrayAttrsData.h; sourceTree = "<group>"; };
+		BB731695197ED27C00806643 /* MFnAssembly.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MFnAssembly.h; sourceTree = "<group>"; };
+		BB731696197ED27C00806643 /* MFnAttribute.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MFnAttribute.h; sourceTree = "<group>"; };
+		BB731697197ED27C00806643 /* MFnBase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MFnBase.h; sourceTree = "<group>"; };
+		BB731698197ED27C00806643 /* MFnBlendShapeDeformer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MFnBlendShapeDeformer.h; sourceTree = "<group>"; };
+		BB731699197ED27C00806643 /* MFnBlinnShader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MFnBlinnShader.h; sourceTree = "<group>"; };
+		BB73169A197ED27C00806643 /* MFnCamera.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MFnCamera.h; sourceTree = "<group>"; };
+		BB73169B197ED27C00806643 /* MFnCameraSet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MFnCameraSet.h; sourceTree = "<group>"; };
+		BB73169C197ED27C00806643 /* MFnCharacter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MFnCharacter.h; sourceTree = "<group>"; };
+		BB73169D197ED27C00806643 /* MFnCircleSweepManip.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MFnCircleSweepManip.h; sourceTree = "<group>"; };
+		BB73169E197ED27C00806643 /* MFnClip.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MFnClip.h; sourceTree = "<group>"; };
+		BB73169F197ED27C00806643 /* MFnComponent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MFnComponent.h; sourceTree = "<group>"; };
+		BB7316A0197ED27C00806643 /* MFnComponentListData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MFnComponentListData.h; sourceTree = "<group>"; };
+		BB7316A1197ED27C00806643 /* MFnCompoundAttribute.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MFnCompoundAttribute.h; sourceTree = "<group>"; };
+		BB7316A2197ED27C00806643 /* MFnContainerNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MFnContainerNode.h; sourceTree = "<group>"; };
+		BB7316A3197ED27C00806643 /* MFnCurveSegmentManip.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MFnCurveSegmentManip.h; sourceTree = "<group>"; };
+		BB7316A4197ED27C00806643 /* MFnDagNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MFnDagNode.h; sourceTree = "<group>"; };
+		BB7316A5197ED27C00806643 /* MFnData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MFnData.h; sourceTree = "<group>"; };
+		BB7316A6197ED27C00806643 /* MFnDependencyNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MFnDependencyNode.h; sourceTree = "<group>"; };
+		BB7316A7197ED27C00806643 /* MFnDirectionalLight.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MFnDirectionalLight.h; sourceTree = "<group>"; };
+		BB7316A8197ED27C00806643 /* MFnDirectionManip.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MFnDirectionManip.h; sourceTree = "<group>"; };
+		BB7316A9197ED27C00806643 /* MFnDiscManip.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MFnDiscManip.h; sourceTree = "<group>"; };
+		BB7316AA197ED27C00806643 /* MFnDistanceManip.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MFnDistanceManip.h; sourceTree = "<group>"; };
+		BB7316AB197ED27C00806643 /* MFnDoubleArrayData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MFnDoubleArrayData.h; sourceTree = "<group>"; };
+		BB7316AC197ED27C00806643 /* MFnDoubleIndexedComponent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MFnDoubleIndexedComponent.h; sourceTree = "<group>"; };
+		BB7316AD197ED27C00806643 /* MFnDragField.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MFnDragField.h; sourceTree = "<group>"; };
+		BB7316AE197ED27C00806643 /* MFnDynSweptGeometryData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MFnDynSweptGeometryData.h; sourceTree = "<group>"; };
+		BB7316AF197ED27C00806643 /* MFnEnumAttribute.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MFnEnumAttribute.h; sourceTree = "<group>"; };
+		BB7316B0197ED27C00806643 /* MFnExpression.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MFnExpression.h; sourceTree = "<group>"; };
+		BB7316B1197ED27C00806643 /* MFnField.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MFnField.h; sourceTree = "<group>"; };
+		BB7316B2197ED27C00806643 /* MFnFloatArrayData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MFnFloatArrayData.h; sourceTree = "<group>"; };
+		BB7316B3197ED27C00806643 /* MFnFluid.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MFnFluid.h; sourceTree = "<group>"; };
+		BB7316B4197ED27C00806643 /* MFnFreePointTriadManip.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MFnFreePointTriadManip.h; sourceTree = "<group>"; };
+		BB7316B5197ED27C00806643 /* MFnGenericAttribute.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MFnGenericAttribute.h; sourceTree = "<group>"; };
+		BB7316B6197ED27C00806643 /* MFnGeometryData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MFnGeometryData.h; sourceTree = "<group>"; };
+		BB7316B7197ED27C00806643 /* MFnGeometryFilter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MFnGeometryFilter.h; sourceTree = "<group>"; };
+		BB7316B8197ED27C00806643 /* MFnGravityField.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MFnGravityField.h; sourceTree = "<group>"; };
+		BB7316B9197ED27C00806643 /* MFnHikEffector.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MFnHikEffector.h; sourceTree = "<group>"; };
+		BB7316BA197ED27C00806643 /* MFnIkEffector.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MFnIkEffector.h; sourceTree = "<group>"; };
+		BB7316BB197ED27C00806643 /* MFnIkHandle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MFnIkHandle.h; sourceTree = "<group>"; };
+		BB7316BC197ED27C00806643 /* MFnIkJoint.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MFnIkJoint.h; sourceTree = "<group>"; };
+		BB7316BD197ED27C00806643 /* MFnIkSolver.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MFnIkSolver.h; sourceTree = "<group>"; };
+		BB7316BE197ED27C00806643 /* MFnImageSource.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MFnImageSource.h; sourceTree = "<group>"; };
+		BB7316BF197ED27C00806643 /* MFnInstancer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MFnInstancer.h; sourceTree = "<group>"; };
+		BB7316C0197ED27C00806643 /* MFnIntArrayData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MFnIntArrayData.h; sourceTree = "<group>"; };
+		BB7316C1197ED27C00806643 /* MFnKeyframeDelta.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MFnKeyframeDelta.h; sourceTree = "<group>"; };
+		BB7316C2197ED27C00806643 /* MFnKeyframeDeltaAddRemove.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MFnKeyframeDeltaAddRemove.h; sourceTree = "<group>"; };
+		BB7316C3197ED27C00806643 /* MFnKeyframeDeltaBlockAddRemove.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MFnKeyframeDeltaBlockAddRemove.h; sourceTree = "<group>"; };
+		BB7316C4197ED27C00806643 /* MFnKeyframeDeltaBreakdown.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MFnKeyframeDeltaBreakdown.h; sourceTree = "<group>"; };
+		BB7316C5197ED27C00806643 /* MFnKeyframeDeltaInfType.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MFnKeyframeDeltaInfType.h; sourceTree = "<group>"; };
+		BB7316C6197ED27C00806643 /* MFnKeyframeDeltaMove.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MFnKeyframeDeltaMove.h; sourceTree = "<group>"; };
+		BB7316C7197ED27C00806643 /* MFnKeyframeDeltaScale.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MFnKeyframeDeltaScale.h; sourceTree = "<group>"; };
+		BB7316C8197ED27C00806643 /* MFnKeyframeDeltaTangent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MFnKeyframeDeltaTangent.h; sourceTree = "<group>"; };
+		BB7316C9197ED27C00806643 /* MFnKeyframeDeltaWeighted.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MFnKeyframeDeltaWeighted.h; sourceTree = "<group>"; };
+		BB7316CA197ED27C00806643 /* MFnLambertShader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MFnLambertShader.h; sourceTree = "<group>"; };
+		BB7316CB197ED27C00806643 /* MFnLattice.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MFnLattice.h; sourceTree = "<group>"; };
+		BB7316CC197ED27C00806643 /* MFnLatticeData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MFnLatticeData.h; sourceTree = "<group>"; };
+		BB7316CD197ED27C00806643 /* MFnLatticeDeformer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MFnLatticeDeformer.h; sourceTree = "<group>"; };
+		BB7316CE197ED27C00806643 /* MFnLayeredShader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MFnLayeredShader.h; sourceTree = "<group>"; };
+		BB7316CF197ED27C00806643 /* MFnLight.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MFnLight.h; sourceTree = "<group>"; };
+		BB7316D0197ED27C00806643 /* MFnLightDataAttribute.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MFnLightDataAttribute.h; sourceTree = "<group>"; };
+		BB7316D1197ED27C00806643 /* MFnManip3D.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MFnManip3D.h; sourceTree = "<group>"; };
+		BB7316D2197ED27C00806643 /* MFnMatrixAttribute.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MFnMatrixAttribute.h; sourceTree = "<group>"; };
+		BB7316D3197ED27C00806643 /* MFnMatrixData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MFnMatrixData.h; sourceTree = "<group>"; };
+		BB7316D4197ED27C00806643 /* MFnMesh.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MFnMesh.h; sourceTree = "<group>"; };
+		BB7316D5197ED27C00806643 /* MFnMeshData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MFnMeshData.h; sourceTree = "<group>"; };
+		BB7316D6197ED27C00806643 /* MFnMessageAttribute.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MFnMessageAttribute.h; sourceTree = "<group>"; };
+		BB7316D7197ED27C00806643 /* MFnMotionPath.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MFnMotionPath.h; sourceTree = "<group>"; };
+		BB7316D8197ED27C00806643 /* MFnNewtonField.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MFnNewtonField.h; sourceTree = "<group>"; };
+		BB7316D9197ED27C00806643 /* MFnNIdData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MFnNIdData.h; sourceTree = "<group>"; };
+		BB7316DA197ED27C00806643 /* MFnNObjectData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MFnNObjectData.h; sourceTree = "<group>"; };
+		BB7316DB197ED27C00806643 /* MFnNonAmbientLight.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MFnNonAmbientLight.h; sourceTree = "<group>"; };
+		BB7316DC197ED27C00806643 /* MFnNonExtendedLight.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MFnNonExtendedLight.h; sourceTree = "<group>"; };
+		BB7316DD197ED27C00806643 /* MFnNumericAttribute.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MFnNumericAttribute.h; sourceTree = "<group>"; };
+		BB7316DE197ED27C00806643 /* MFnNumericData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MFnNumericData.h; sourceTree = "<group>"; };
+		BB7316DF197ED27C00806643 /* MFnNurbsCurve.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MFnNurbsCurve.h; sourceTree = "<group>"; };
+		BB7316E0197ED27C00806643 /* MFnNurbsCurveData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MFnNurbsCurveData.h; sourceTree = "<group>"; };
+		BB7316E1197ED27C00806643 /* MFnNurbsSurface.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MFnNurbsSurface.h; sourceTree = "<group>"; };
+		BB7316E2197ED27C00806643 /* MFnNurbsSurfaceData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MFnNurbsSurfaceData.h; sourceTree = "<group>"; };
+		BB7316E3197ED27C00806643 /* MFnParticleSystem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MFnParticleSystem.h; sourceTree = "<group>"; };
+		BB7316E4197ED27C00806643 /* MFnPartition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MFnPartition.h; sourceTree = "<group>"; };
+		BB7316E5197ED27C00806643 /* MFnPfxGeometry.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MFnPfxGeometry.h; sourceTree = "<group>"; };
+		BB7316E6197ED27C00806643 /* MFnPhongEShader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MFnPhongEShader.h; sourceTree = "<group>"; };
+		BB7316E7197ED27C00806643 /* MFnPhongShader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MFnPhongShader.h; sourceTree = "<group>"; };
+		BB7316E8197ED27C00806643 /* MFnPlugin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MFnPlugin.h; sourceTree = "<group>"; };
+		BB7316E9197ED27C00806643 /* MFnPluginData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MFnPluginData.h; sourceTree = "<group>"; };
+		BB7316EA197ED27C00806643 /* MFnPointArrayData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MFnPointArrayData.h; sourceTree = "<group>"; };
+		BB7316EB197ED27C00806643 /* MFnPointLight.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MFnPointLight.h; sourceTree = "<group>"; };
+		BB7316EC197ED27C00806643 /* MFnPointOnCurveManip.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MFnPointOnCurveManip.h; sourceTree = "<group>"; };
+		BB7316ED197ED27C00806643 /* MFnPointOnSurfaceManip.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MFnPointOnSurfaceManip.h; sourceTree = "<group>"; };
+		BB7316EE197ED27C00806643 /* MFnRadialField.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MFnRadialField.h; sourceTree = "<group>"; };
+		BB7316EF197ED27C00806643 /* MFnReference.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MFnReference.h; sourceTree = "<group>"; };
+		BB7316F0197ED27C00806643 /* MFnReflectShader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MFnReflectShader.h; sourceTree = "<group>"; };
+		BB7316F1197ED27C00806643 /* MFnRenderLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MFnRenderLayer.h; sourceTree = "<group>"; };
+		BB7316F2197ED27C00806643 /* MFnRenderPass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MFnRenderPass.h; sourceTree = "<group>"; };
+		BB7316F3197ED27C00806643 /* MFnRotateManip.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MFnRotateManip.h; sourceTree = "<group>"; };
+		BB7316F4197ED27C00806643 /* MFnScaleManip.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MFnScaleManip.h; sourceTree = "<group>"; };
+		BB7316F5197ED27C00806643 /* MFnSet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MFnSet.h; sourceTree = "<group>"; };
+		BB7316F6197ED27C00806643 /* MFnSingleIndexedComponent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MFnSingleIndexedComponent.h; sourceTree = "<group>"; };
+		BB7316F7197ED27C00806643 /* MFnSkinCluster.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MFnSkinCluster.h; sourceTree = "<group>"; };
+		BB7316F8197ED27C00806643 /* MFnSphereData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MFnSphereData.h; sourceTree = "<group>"; };
+		BB7316F9197ED27C00806643 /* MFnSpotLight.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MFnSpotLight.h; sourceTree = "<group>"; };
+		BB7316FA197ED27C00806643 /* MFnStateManip.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MFnStateManip.h; sourceTree = "<group>"; };
+		BB7316FB197ED27C00806643 /* MFnStringArrayData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MFnStringArrayData.h; sourceTree = "<group>"; };
+		BB7316FC197ED27C00806643 /* MFnStringData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MFnStringData.h; sourceTree = "<group>"; };
+		BB7316FD197ED27C00806643 /* MFnSubd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MFnSubd.h; sourceTree = "<group>"; };
+		BB7316FE197ED27C00806643 /* MFnSubdData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MFnSubdData.h; sourceTree = "<group>"; };
+		BB7316FF197ED27C00806643 /* MFnSubdNames.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MFnSubdNames.h; sourceTree = "<group>"; };
+		BB731700197ED27C00806643 /* MFnToggleManip.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MFnToggleManip.h; sourceTree = "<group>"; };
+		BB731701197ED27C00806643 /* MFnToolContext.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MFnToolContext.h; sourceTree = "<group>"; };
+		BB731702197ED27C00806643 /* MFnTransform.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MFnTransform.h; sourceTree = "<group>"; };
+		BB731703197ED27C00806643 /* MFnTripleIndexedComponent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MFnTripleIndexedComponent.h; sourceTree = "<group>"; };
+		BB731704197ED27C00806643 /* MFnTurbulenceField.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MFnTurbulenceField.h; sourceTree = "<group>"; };
+		BB731705197ED27C00806643 /* MFnTypedAttribute.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MFnTypedAttribute.h; sourceTree = "<group>"; };
+		BB731706197ED27C00806643 /* MFnUInt64ArrayData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MFnUInt64ArrayData.h; sourceTree = "<group>"; };
+		BB731707197ED27C00806643 /* MFnUint64SingleIndexedComponent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MFnUint64SingleIndexedComponent.h; sourceTree = "<group>"; };
+		BB731708197ED27C00806643 /* MFnUniformField.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MFnUniformField.h; sourceTree = "<group>"; };
+		BB731709197ED27C00806643 /* MFnUnitAttribute.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MFnUnitAttribute.h; sourceTree = "<group>"; };
+		BB73170A197ED27C00806643 /* MFnVectorArrayData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MFnVectorArrayData.h; sourceTree = "<group>"; };
+		BB73170B197ED27C00806643 /* MFnVolumeAxisField.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MFnVolumeAxisField.h; sourceTree = "<group>"; };
+		BB73170C197ED27C00806643 /* MFnVolumeLight.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MFnVolumeLight.h; sourceTree = "<group>"; };
+		BB73170D197ED27C00806643 /* MFnVortexField.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MFnVortexField.h; sourceTree = "<group>"; };
+		BB73170E197ED27C00806643 /* MFnWeightGeometryFilter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MFnWeightGeometryFilter.h; sourceTree = "<group>"; };
+		BB73170F197ED27C00806643 /* MFnWireDeformer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MFnWireDeformer.h; sourceTree = "<group>"; };
+		BB731710197ED27C00806643 /* MFragmentManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MFragmentManager.h; sourceTree = "<group>"; };
+		BB731711197ED27C00806643 /* MFrameContext.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MFrameContext.h; sourceTree = "<group>"; };
+		BB731712197ED27C00806643 /* MFStream.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MFStream.h; sourceTree = "<group>"; };
+		BB731713197ED27C00806643 /* MGeometry.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MGeometry.h; sourceTree = "<group>"; };
+		BB731714197ED27C00806643 /* MGeometryData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MGeometryData.h; sourceTree = "<group>"; };
+		BB731715197ED27C00806643 /* MGeometryExtractor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MGeometryExtractor.h; sourceTree = "<group>"; };
+		BB731716197ED27C00806643 /* MGeometryList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MGeometryList.h; sourceTree = "<group>"; };
+		BB731717197ED27C00806643 /* MGeometryManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MGeometryManager.h; sourceTree = "<group>"; };
+		BB731718197ED27C00806643 /* MGeometryPrimitive.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MGeometryPrimitive.h; sourceTree = "<group>"; };
+		BB731719197ED27C00806643 /* MGeometryRequirements.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MGeometryRequirements.h; sourceTree = "<group>"; };
+		BB73171A197ED27C00806643 /* MGLdefinitions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MGLdefinitions.h; sourceTree = "<group>"; };
+		BB73171B197ED27C00806643 /* MGLFunctionTable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MGLFunctionTable.h; sourceTree = "<group>"; };
+		BB73171C197ED27C00806643 /* MGlobal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MGlobal.h; sourceTree = "<group>"; };
+		BB73171D197ED27C00806643 /* MHairSystem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MHairSystem.h; sourceTree = "<group>"; };
+		BB73171E197ED27C00806643 /* MHardwareRenderer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MHardwareRenderer.h; sourceTree = "<group>"; };
+		BB73171F197ED27C00806643 /* MHWGeometry.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MHWGeometry.h; sourceTree = "<group>"; };
+		BB731720197ED27C00806643 /* MHWGeometryUtilities.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MHWGeometryUtilities.h; sourceTree = "<group>"; };
+		BB731721197ED27C00806643 /* MHwrCallback.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MHwrCallback.h; sourceTree = "<group>"; };
+		BB731722197ED27C00806643 /* MHWShaderSwatchGenerator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MHWShaderSwatchGenerator.h; sourceTree = "<group>"; };
+		BB731723197ED27C00806643 /* MHwTextureManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MHwTextureManager.h; sourceTree = "<group>"; };
+		BB731724197ED27C00806643 /* MIffFile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MIffFile.h; sourceTree = "<group>"; };
+		BB731725197ED27C00806643 /* MIffTag.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MIffTag.h; sourceTree = "<group>"; };
+		BB731726197ED27C00806643 /* MIkHandleGroup.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MIkHandleGroup.h; sourceTree = "<group>"; };
+		BB731727197ED27C00806643 /* MIkSystem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MIkSystem.h; sourceTree = "<group>"; };
+		BB731728197ED27C00806643 /* MImage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MImage.h; sourceTree = "<group>"; };
+		BB731729197ED27C00806643 /* MImageFileInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MImageFileInfo.h; sourceTree = "<group>"; };
+		BB73172A197ED27C00806643 /* MIntArray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MIntArray.h; sourceTree = "<group>"; };
+		BB73172B197ED27C00806643 /* MIOStream.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MIOStream.h; sourceTree = "<group>"; };
+		BB73172C197ED27C00806643 /* MIOStreamFwd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MIOStreamFwd.h; sourceTree = "<group>"; };
+		BB73172D197ED27C00806643 /* MItCurveCV.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MItCurveCV.h; sourceTree = "<group>"; };
+		BB73172E197ED27C00806643 /* MItDag.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MItDag.h; sourceTree = "<group>"; };
+		BB73172F197ED27C00806643 /* MItDependencyGraph.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MItDependencyGraph.h; sourceTree = "<group>"; };
+		BB731730197ED27C00806643 /* MItDependencyNodes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MItDependencyNodes.h; sourceTree = "<group>"; };
+		BB731731197ED27C00806643 /* MItEdits.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MItEdits.h; sourceTree = "<group>"; };
+		BB731732197ED27C00806643 /* MIteratorType.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MIteratorType.h; sourceTree = "<group>"; };
+		BB731733197ED27C00806643 /* MItGeometry.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MItGeometry.h; sourceTree = "<group>"; };
+		BB731734197ED27C00806643 /* MItInstancer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MItInstancer.h; sourceTree = "<group>"; };
+		BB731735197ED27C00806643 /* MItKeyframe.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MItKeyframe.h; sourceTree = "<group>"; };
+		BB731736197ED27C00806643 /* MItMeshEdge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MItMeshEdge.h; sourceTree = "<group>"; };
+		BB731737197ED27C00806643 /* MItMeshFaceVertex.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MItMeshFaceVertex.h; sourceTree = "<group>"; };
+		BB731738197ED27C00806643 /* MItMeshPolygon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MItMeshPolygon.h; sourceTree = "<group>"; };
+		BB731739197ED27C00806643 /* MItMeshVertex.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MItMeshVertex.h; sourceTree = "<group>"; };
+		BB73173A197ED27C00806643 /* MItSelectionList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MItSelectionList.h; sourceTree = "<group>"; };
+		BB73173B197ED27C00806643 /* MItSubdEdge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MItSubdEdge.h; sourceTree = "<group>"; };
+		BB73173C197ED27C00806643 /* MItSubdFace.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MItSubdFace.h; sourceTree = "<group>"; };
+		BB73173D197ED27C00806643 /* MItSubdVertex.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MItSubdVertex.h; sourceTree = "<group>"; };
+		BB73173E197ED27C00806643 /* MItSurfaceCV.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MItSurfaceCV.h; sourceTree = "<group>"; };
+		BB73173F197ED27C00806643 /* MLibrary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MLibrary.h; sourceTree = "<group>"; };
+		BB731740197ED27C00806643 /* MLightLinks.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MLightLinks.h; sourceTree = "<group>"; };
+		BB731741197ED27C00806643 /* MLockMessage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MLockMessage.h; sourceTree = "<group>"; };
+		BB731742197ED27C00806643 /* MManipData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MManipData.h; sourceTree = "<group>"; };
+		BB731743197ED27C00806643 /* MMaterial.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MMaterial.h; sourceTree = "<group>"; };
+		BB731744197ED27C00806643 /* MMaterialArray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MMaterialArray.h; sourceTree = "<group>"; };
+		BB731745197ED27C00806643 /* MMatrix.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MMatrix.h; sourceTree = "<group>"; };
+		BB731746197ED27C00806643 /* MMatrixArray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MMatrixArray.h; sourceTree = "<group>"; };
+		BB731747197ED27C00806643 /* MMeshIntersector.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MMeshIntersector.h; sourceTree = "<group>"; };
+		BB731748197ED27C00806643 /* MMeshSmoothOptions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MMeshSmoothOptions.h; sourceTree = "<group>"; };
+		BB731749197ED27C00806643 /* MMessage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MMessage.h; sourceTree = "<group>"; };
+		BB73174A197ED27C00806643 /* MModelMessage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MModelMessage.h; sourceTree = "<group>"; };
+		BB73174B197ED27C00806643 /* MMutexLock.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MMutexLock.h; sourceTree = "<group>"; };
+		BB73174C197ED27C00806643 /* MNamespace.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MNamespace.h; sourceTree = "<group>"; };
+		BB73174D197ED27C00806643 /* MNativeWindowHdl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MNativeWindowHdl.h; sourceTree = "<group>"; };
+		BB73174E197ED27C00806643 /* MnCloth.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MnCloth.h; sourceTree = "<group>"; };
+		BB73174F197ED27C00806643 /* MnObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MnObject.h; sourceTree = "<group>"; };
+		BB731750197ED27C00806643 /* MNodeClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MNodeClass.h; sourceTree = "<group>"; };
+		BB731751197ED27C00806643 /* MNodeMessage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MNodeMessage.h; sourceTree = "<group>"; };
+		BB731752197ED27C00806643 /* MnParticle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MnParticle.h; sourceTree = "<group>"; };
+		BB731753197ED27C00806643 /* MnRigid.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MnRigid.h; sourceTree = "<group>"; };
+		BB731754197ED27C00806643 /* MnSolver.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MnSolver.h; sourceTree = "<group>"; };
+		BB731755197ED27C00806643 /* MNurbsIntersector.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MNurbsIntersector.h; sourceTree = "<group>"; };
+		BB731756197ED27C00806643 /* MObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MObject.h; sourceTree = "<group>"; };
+		BB731757197ED27C00806643 /* MObjectArray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MObjectArray.h; sourceTree = "<group>"; };
+		BB731758197ED27C00806643 /* MObjectHandle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MObjectHandle.h; sourceTree = "<group>"; };
+		BB731759197ED27C00806643 /* MObjectListFilter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MObjectListFilter.h; sourceTree = "<group>"; };
+		BB73175A197ED27C00806643 /* MObjectSetMessage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MObjectSetMessage.h; sourceTree = "<group>"; };
+		BB73175B197ED27C00806643 /* mocapserial.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mocapserial.h; sourceTree = "<group>"; };
+		BB73175C197ED27C00806643 /* mocapserver.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mocapserver.h; sourceTree = "<group>"; };
+		BB73175D197ED27C00806643 /* mocaptcp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mocaptcp.h; sourceTree = "<group>"; };
+		BB73175E197ED27C00806643 /* MParentingEdit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MParentingEdit.h; sourceTree = "<group>"; };
+		BB73175F197ED27C00806643 /* MPlane.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPlane.h; sourceTree = "<group>"; };
+		BB731760197ED27C00806643 /* MPlug.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPlug.h; sourceTree = "<group>"; };
+		BB731761197ED27C00806643 /* MPlugArray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPlugArray.h; sourceTree = "<group>"; };
+		BB731762197ED27C00806643 /* MPoint.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPoint.h; sourceTree = "<group>"; };
+		BB731763197ED27C00806643 /* MPointArray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPointArray.h; sourceTree = "<group>"; };
+		BB731764197ED27C00806643 /* MPolyMessage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPolyMessage.h; sourceTree = "<group>"; };
+		BB731765197ED27C00806643 /* MProgressWindow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MProgressWindow.h; sourceTree = "<group>"; };
+		BB731766197ED27C00806643 /* MPx3dModelView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPx3dModelView.h; sourceTree = "<group>"; };
+		BB731767197ED27C00806643 /* MPxAssembly.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPxAssembly.h; sourceTree = "<group>"; };
+		BB731768197ED27C00806643 /* MPxAttributePatternFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPxAttributePatternFactory.h; sourceTree = "<group>"; };
+		BB731769197ED27C00806643 /* MPxBakeEngine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPxBakeEngine.h; sourceTree = "<group>"; };
+		BB73176A197ED27C00806643 /* MPxCacheFormat.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPxCacheFormat.h; sourceTree = "<group>"; };
+		BB73176B197ED27C00806643 /* MPxCameraSet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPxCameraSet.h; sourceTree = "<group>"; };
+		BB73176C197ED27C00806643 /* MPxClientDeviceNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPxClientDeviceNode.h; sourceTree = "<group>"; };
+		BB73176D197ED27C00806643 /* MPxCommand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPxCommand.h; sourceTree = "<group>"; };
+		BB73176E197ED27C00806643 /* MPxComponentShape.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPxComponentShape.h; sourceTree = "<group>"; };
+		BB73176F197ED27C00806643 /* MPxConstraint.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPxConstraint.h; sourceTree = "<group>"; };
+		BB731770197ED27C00806643 /* MPxConstraintCommand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPxConstraintCommand.h; sourceTree = "<group>"; };
+		BB731771197ED27C00806643 /* MPxContext.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPxContext.h; sourceTree = "<group>"; };
+		BB731772197ED27C00806643 /* MPxContextCommand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPxContextCommand.h; sourceTree = "<group>"; };
+		BB731773197ED27C00806643 /* MPxControlCommand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPxControlCommand.h; sourceTree = "<group>"; };
+		BB731774197ED27C00806643 /* MPxData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPxData.h; sourceTree = "<group>"; };
+		BB731775197ED27C00806643 /* MPxDeformerNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPxDeformerNode.h; sourceTree = "<group>"; };
+		BB731776197ED27D00806643 /* MPxDragAndDropBehavior.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPxDragAndDropBehavior.h; sourceTree = "<group>"; };
+		BB731777197ED27D00806643 /* MPxDrawOverride.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPxDrawOverride.h; sourceTree = "<group>"; };
+		BB731778197ED27D00806643 /* MPxEditData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPxEditData.h; sourceTree = "<group>"; };
+		BB731779197ED27D00806643 /* MPxEmitterNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPxEmitterNode.h; sourceTree = "<group>"; };
+		BB73177A197ED27D00806643 /* MPxFieldNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPxFieldNode.h; sourceTree = "<group>"; };
+		BB73177B197ED27D00806643 /* MPxFileResolver.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPxFileResolver.h; sourceTree = "<group>"; };
+		BB73177C197ED27D00806643 /* MPxFileTranslator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPxFileTranslator.h; sourceTree = "<group>"; };
+		BB73177D197ED27D00806643 /* MPxFluidEmitterNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPxFluidEmitterNode.h; sourceTree = "<group>"; };
+		BB73177E197ED27D00806643 /* MPxGeometryData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPxGeometryData.h; sourceTree = "<group>"; };
+		BB73177F197ED27D00806643 /* MPxGeometryIterator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPxGeometryIterator.h; sourceTree = "<group>"; };
+		BB731780197ED27D00806643 /* MPxGeometryOverride.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPxGeometryOverride.h; sourceTree = "<group>"; };
+		BB731781197ED27D00806643 /* MPxGlBuffer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPxGlBuffer.h; sourceTree = "<group>"; };
+		BB731782197ED27D00806643 /* MPxHardwareShader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPxHardwareShader.h; sourceTree = "<group>"; };
+		BB731783197ED27D00806643 /* MPxHwShaderNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPxHwShaderNode.h; sourceTree = "<group>"; };
+		BB731784197ED27D00806643 /* MPxIkSolver.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPxIkSolver.h; sourceTree = "<group>"; };
+		BB731785197ED27D00806643 /* MPxIkSolverNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPxIkSolverNode.h; sourceTree = "<group>"; };
+		BB731786197ED27D00806643 /* MPxImageFile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPxImageFile.h; sourceTree = "<group>"; };
+		BB731787197ED27D00806643 /* MPxImagePlane.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPxImagePlane.h; sourceTree = "<group>"; };
+		BB731788197ED27D00806643 /* MPxIndexBufferMutator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPxIndexBufferMutator.h; sourceTree = "<group>"; };
+		BB731789197ED27D00806643 /* MPxLocatorNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPxLocatorNode.h; sourceTree = "<group>"; };
+		BB73178A197ED27D00806643 /* MPxManipContainer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPxManipContainer.h; sourceTree = "<group>"; };
+		BB73178B197ED27D00806643 /* MPxManipulatorNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPxManipulatorNode.h; sourceTree = "<group>"; };
+		BB73178C197ED27D00806643 /* MPxMaterialInformation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPxMaterialInformation.h; sourceTree = "<group>"; };
+		BB73178D197ED27D00806643 /* MPxMayaAsciiFilter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPxMayaAsciiFilter.h; sourceTree = "<group>"; };
+		BB73178E197ED27D00806643 /* MPxMidiInputDevice.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPxMidiInputDevice.h; sourceTree = "<group>"; };
+		BB73178F197ED27D00806643 /* MPxModelEditorCommand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPxModelEditorCommand.h; sourceTree = "<group>"; };
+		BB731790197ED27D00806643 /* MPxNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPxNode.h; sourceTree = "<group>"; };
+		BB731791197ED27D00806643 /* MPxObjectSet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPxObjectSet.h; sourceTree = "<group>"; };
+		BB731792197ED27D00806643 /* MPxParticleAttributeMapperNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPxParticleAttributeMapperNode.h; sourceTree = "<group>"; };
+		BB731793197ED27D00806643 /* MPxPolyTrg.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPxPolyTrg.h; sourceTree = "<group>"; };
+		BB731794197ED27D00806643 /* MPxPolyTweakUVCommand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPxPolyTweakUVCommand.h; sourceTree = "<group>"; };
+		BB731795197ED27D00806643 /* MPxPrimitiveGenerator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPxPrimitiveGenerator.h; sourceTree = "<group>"; };
+		BB731796197ED27D00806643 /* MPxRenderPassImpl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPxRenderPassImpl.h; sourceTree = "<group>"; };
+		BB731797197ED27D00806643 /* MPxRepresentation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPxRepresentation.h; sourceTree = "<group>"; };
+		BB731798197ED27D00806643 /* MPxSelectionContext.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPxSelectionContext.h; sourceTree = "<group>"; };
+		BB731799197ED27D00806643 /* MPxShaderOverride.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPxShaderOverride.h; sourceTree = "<group>"; };
+		BB73179A197ED27D00806643 /* MPxShadingNodeOverride.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPxShadingNodeOverride.h; sourceTree = "<group>"; };
+		BB73179B197ED27D00806643 /* MPxSpringNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPxSpringNode.h; sourceTree = "<group>"; };
+		BB73179C197ED27D00806643 /* MPxSubSceneOverride.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPxSubSceneOverride.h; sourceTree = "<group>"; };
+		BB73179D197ED27D00806643 /* MPxSurfaceShadingNodeOverride.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPxSurfaceShadingNodeOverride.h; sourceTree = "<group>"; };
+		BB73179E197ED27D00806643 /* MPxSurfaceShape.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPxSurfaceShape.h; sourceTree = "<group>"; };
+		BB73179F197ED27D00806643 /* MPxSurfaceShapeUI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPxSurfaceShapeUI.h; sourceTree = "<group>"; };
+		BB7317A0197ED27D00806643 /* MPxThreadedDeviceNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPxThreadedDeviceNode.h; sourceTree = "<group>"; };
+		BB7317A1197ED27D00806643 /* MPxToolCommand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPxToolCommand.h; sourceTree = "<group>"; };
+		BB7317A2197ED27D00806643 /* MPxTransform.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPxTransform.h; sourceTree = "<group>"; };
+		BB7317A3197ED27D00806643 /* MPxTransformationMatrix.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPxTransformationMatrix.h; sourceTree = "<group>"; };
+		BB7317A4197ED27D00806643 /* MPxUIControl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPxUIControl.h; sourceTree = "<group>"; };
+		BB7317A5197ED27D00806643 /* MPxUITableControl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPxUITableControl.h; sourceTree = "<group>"; };
+		BB7317A6197ED27D00806643 /* MPxVertexBufferGenerator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPxVertexBufferGenerator.h; sourceTree = "<group>"; };
+		BB7317A7197ED27D00806643 /* MPxVertexBufferMutator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPxVertexBufferMutator.h; sourceTree = "<group>"; };
+		BB7317A8197ED27D00806643 /* MQtUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MQtUtil.h; sourceTree = "<group>"; };
+		BB7317A9197ED27D00806643 /* MQuaternion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MQuaternion.h; sourceTree = "<group>"; };
+		BB7317AA197ED27D00806643 /* MRampAttribute.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MRampAttribute.h; sourceTree = "<group>"; };
+		BB7317AB197ED27D00806643 /* MRenderCallback.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MRenderCallback.h; sourceTree = "<group>"; };
+		BB7317AC197ED27D00806643 /* MRenderData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MRenderData.h; sourceTree = "<group>"; };
+		BB7317AD197ED27D00806643 /* MRenderingInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MRenderingInfo.h; sourceTree = "<group>"; };
+		BB7317AE197ED27D00806643 /* MRenderLine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MRenderLine.h; sourceTree = "<group>"; };
+		BB7317AF197ED27D00806643 /* MRenderLineArray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MRenderLineArray.h; sourceTree = "<group>"; };
+		BB7317B0197ED27D00806643 /* MRenderPassDef.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MRenderPassDef.h; sourceTree = "<group>"; };
+		BB7317B1197ED27D00806643 /* MRenderPassRegistry.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MRenderPassRegistry.h; sourceTree = "<group>"; };
+		BB7317B2197ED27D00806643 /* MRenderProfile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MRenderProfile.h; sourceTree = "<group>"; };
+		BB7317B3197ED27D00806643 /* MRenderShadowData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MRenderShadowData.h; sourceTree = "<group>"; };
+		BB7317B4197ED27D00806643 /* MRenderTarget.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MRenderTarget.h; sourceTree = "<group>"; };
+		BB7317B5197ED27D00806643 /* MRenderTargetManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MRenderTargetManager.h; sourceTree = "<group>"; };
+		BB7317B6197ED27D00806643 /* MRenderUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MRenderUtil.h; sourceTree = "<group>"; };
+		BB7317B7197ED27D00806643 /* MRenderUtilities.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MRenderUtilities.h; sourceTree = "<group>"; };
+		BB7317B8197ED27D00806643 /* MRenderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MRenderView.h; sourceTree = "<group>"; };
+		BB7317B9197ED27D00806643 /* MRichSelection.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MRichSelection.h; sourceTree = "<group>"; };
+		BB7317BA197ED27D00806643 /* MSceneMessage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MSceneMessage.h; sourceTree = "<group>"; };
+		BB7317BB197ED27D00806643 /* MScriptUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MScriptUtil.h; sourceTree = "<group>"; };
+		BB7317BC197ED27D00806643 /* MSelectInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MSelectInfo.h; sourceTree = "<group>"; };
+		BB7317BD197ED27D00806643 /* MSelectionList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MSelectionList.h; sourceTree = "<group>"; };
+		BB7317BE197ED27D00806643 /* MSelectionMask.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MSelectionMask.h; sourceTree = "<group>"; };
+		BB7317BF197ED27D00806643 /* MSetAttrEdit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MSetAttrEdit.h; sourceTree = "<group>"; };
+		BB7317C0197ED27D00806643 /* MShaderManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MShaderManager.h; sourceTree = "<group>"; };
+		BB7317C1197ED27D00806643 /* MSimple.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MSimple.h; sourceTree = "<group>"; };
+		BB7317C2197ED27D00806643 /* MSpinLock.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MSpinLock.h; sourceTree = "<group>"; };
+		BB7317C3197ED27D00806643 /* MStateManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MStateManager.h; sourceTree = "<group>"; };
+		BB7317C4197ED27D00806643 /* MStatus.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MStatus.h; sourceTree = "<group>"; };
+		BB7317C5197ED27D00806643 /* MStreamUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MStreamUtils.h; sourceTree = "<group>"; };
+		BB7317C6197ED27D00806643 /* MString.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MString.h; sourceTree = "<group>"; };
+		BB7317C7197ED27D00806643 /* MStringArray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MStringArray.h; sourceTree = "<group>"; };
+		BB7317C8197ED27D00806643 /* MStringResource.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MStringResource.h; sourceTree = "<group>"; };
+		BB7317C9197ED27D00806643 /* MStringResourceId.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MStringResourceId.h; sourceTree = "<group>"; };
+		BB7317CA197ED27D00806643 /* MSwatchRenderBase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MSwatchRenderBase.h; sourceTree = "<group>"; };
+		BB7317CB197ED27D00806643 /* MSwatchRenderRegister.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MSwatchRenderRegister.h; sourceTree = "<group>"; };
+		BB7317CC197ED27D00806643 /* MSyntax.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MSyntax.h; sourceTree = "<group>"; };
+		BB7317CD197ED27D00806643 /* MTemplateCommand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTemplateCommand.h; sourceTree = "<group>"; };
+		BB7317CE197ED27D00806643 /* MTemplateManipulator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTemplateManipulator.h; sourceTree = "<group>"; };
+		BB7317CF197ED27D00806643 /* MTesselationParams.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTesselationParams.h; sourceTree = "<group>"; };
+		BB7317D0197ED27D00806643 /* MTextureEditorDrawInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTextureEditorDrawInfo.h; sourceTree = "<group>"; };
+		BB7317D1197ED27D00806643 /* MTextureManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTextureManager.h; sourceTree = "<group>"; };
+		BB7317D2197ED27D00806643 /* MThreadAsync.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MThreadAsync.h; sourceTree = "<group>"; };
+		BB7317D3197ED27D00806643 /* MThreadPool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MThreadPool.h; sourceTree = "<group>"; };
+		BB7317D4197ED27D00806643 /* MThreadUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MThreadUtils.h; sourceTree = "<group>"; };
+		BB7317D5197ED27D00806643 /* MTime.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTime.h; sourceTree = "<group>"; };
+		BB7317D6197ED27D00806643 /* MTimeArray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTimeArray.h; sourceTree = "<group>"; };
+		BB7317D7197ED27D00806643 /* MTimer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTimer.h; sourceTree = "<group>"; };
+		BB7317D8197ED27D00806643 /* MTimerMessage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTimerMessage.h; sourceTree = "<group>"; };
+		BB7317D9197ED27D00806643 /* MToolsInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MToolsInfo.h; sourceTree = "<group>"; };
+		BB7317DA197ED27D00806643 /* MTransformationMatrix.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTransformationMatrix.h; sourceTree = "<group>"; };
+		BB7317DB197ED27D00806643 /* MTrimBoundaryArray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTrimBoundaryArray.h; sourceTree = "<group>"; };
+		BB7317DC197ED27D00806643 /* MTypeId.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTypeId.h; sourceTree = "<group>"; };
+		BB7317DD197ED27D00806643 /* MTypes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTypes.h; sourceTree = "<group>"; };
+		BB7317DE197ED27D00806643 /* MUIDrawManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MUIDrawManager.h; sourceTree = "<group>"; };
+		BB7317DF197ED27D00806643 /* MUiMessage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MUiMessage.h; sourceTree = "<group>"; };
+		BB7317E0197ED27D00806643 /* MUint64Array.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MUint64Array.h; sourceTree = "<group>"; };
+		BB7317E1197ED27D00806643 /* MUintArray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MUintArray.h; sourceTree = "<group>"; };
+		BB7317E2197ED27D00806643 /* MUniformParameter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MUniformParameter.h; sourceTree = "<group>"; };
+		BB7317E3197ED27D00806643 /* MUniformParameterList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MUniformParameterList.h; sourceTree = "<group>"; };
+		BB7317E4197ED27D00806643 /* MURI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MURI.h; sourceTree = "<group>"; };
+		BB7317E5197ED27D00806643 /* MUserData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MUserData.h; sourceTree = "<group>"; };
+		BB7317E6197ED27D00806643 /* MUserEventMessage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MUserEventMessage.h; sourceTree = "<group>"; };
+		BB7317E7197ED27D00806643 /* MVaryingParameter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MVaryingParameter.h; sourceTree = "<group>"; };
+		BB7317E8197ED27D00806643 /* MVaryingParameterList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MVaryingParameterList.h; sourceTree = "<group>"; };
+		BB7317E9197ED27D00806643 /* MVector.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MVector.h; sourceTree = "<group>"; };
+		BB7317EA197ED27D00806643 /* MVectorArray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MVectorArray.h; sourceTree = "<group>"; };
+		BB7317EB197ED27D00806643 /* MViewport2Renderer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MViewport2Renderer.h; sourceTree = "<group>"; };
+		BB7317EC197ED27D00806643 /* MViewportRenderer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MViewportRenderer.h; sourceTree = "<group>"; };
+		BB7317ED197ED27D00806643 /* MWeight.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MWeight.h; sourceTree = "<group>"; };
+		BB7317EE197ED27D00806643 /* OpenMayaMac.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OpenMayaMac.h; sourceTree = "<group>"; };
+		BBBE15E2198A15BB004AF326 /* Maya.app */ = {isa = PBXFileReference; lastKnownFileType = wrapper.application; name = Maya.app; path = ../../../../Applications/Autodesk/maya2015/Maya.app; sourceTree = "<group>"; };
+		BBFB172619775A4F00326C08 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		D2AAC0630554660B00DB518D /* cameraTraceBuilder.bundle */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = cameraTraceBuilder.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D289988505E68E00004EDB86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBFB172719775A4F00326C08 /* CoreFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08FB7794FE84155DC02AAC07 /* objExportPlugin */ = {
+			isa = PBXGroup;
+			children = (
+				BBF15E61199C046600FA1202 /* libs */,
+				BBBE15E2198A15BB004AF326 /* Maya.app */,
+				BB731609197ED27B00806643 /* maya */,
+				BBFB172619775A4F00326C08 /* CoreFoundation.framework */,
+				08FB7795FE84155DC02AAC07 /* Source */,
+				8A7F063208688F460064D097 /* Mel */,
+				8A7F063308688F580064D097 /* Resources */,
+				1AB674ADFE9D54B511CA2CBB /* Products */,
+			);
+			name = objExportPlugin;
+			sourceTree = "<group>";
+		};
+		08FB7795FE84155DC02AAC07 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				BB3E50DC19B7978200D0EED3 /* recordCameraTrace.cpp */,
+				BB3E50DD19B7978200D0EED3 /* recordCameraTrace.h */,
+				BB3ABBA719AD3B7D0071F7C6 /* objExport.cpp */,
+				BB39C85F19905902001982B3 /* objExport.h */,
+				BB39C86019905902001982B3 /* pluginMain.cpp */,
+				BB39C86319905902001982B3 /* trangulateCmd.h */,
+				BB39C86419905902001982B3 /* triangulateCmd.cpp */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		1AB674ADFE9D54B511CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2AAC0630554660B00DB518D /* cameraTraceBuilder.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8A7F063208688F460064D097 /* Mel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Mel;
+			sourceTree = "<group>";
+		};
+		8A7F063308688F580064D097 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		BB731609197ED27B00806643 /* maya */ = {
+			isa = PBXGroup;
+			children = (
+				BB73160A197ED27B00806643 /* adskCheckpointed.h */,
+				BB73160B197ED27B00806643 /* adskCommon.h */,
+				BB73160C197ED27B00806643 /* adskDataAccessor.h */,
+				BB73160D197ED27B00806643 /* adskDataAccessorMaya.h */,
+				BB73160E197ED27B00806643 /* adskDataAssociations.h */,
+				BB73160F197ED27B00806643 /* adskDataAssociationsIterator.h */,
+				BB731610197ED27B00806643 /* adskDataAssociationsSerializer.h */,
+				BB731611197ED27B00806643 /* adskDataAttach.h */,
+				BB731612197ED27B00806643 /* adskDataAttachDirectly.h */,
+				BB731613197ED27B00806643 /* adskDataChannel.h */,
+				BB731614197ED27B00806643 /* adskDataChannelIterator.h */,
+				BB731615197ED27B00806643 /* adskDataChannelSerializer.h */,
+				BB731616197ED27B00806643 /* adskDataHandle.h */,
+				BB731617197ED27B00806643 /* adskDataIndex.h */,
+				BB731618197ED27B00806643 /* adskDataIndexPair.h */,
+				BB731619197ED27B00806643 /* adskDataIndexString.h */,
+				BB73161A197ED27B00806643 /* adskDataIndexType.h */,
+				BB73161B197ED27B00806643 /* adskDataMember.h */,
+				BB73161C197ED27B00806643 /* adskDataSerializer.h */,
+				BB73161D197ED27B00806643 /* adskDataStream.h */,
+				BB73161E197ED27B00806643 /* adskDataStreamIterator.h */,
+				BB73161F197ED27B00806643 /* adskDataStreamSerializer.h */,
+				BB731620197ED27B00806643 /* adskDataStructure.h */,
+				BB731621197ED27B00806643 /* adskDataStructureIterator.h */,
+				BB731622197ED27B00806643 /* adskDataStructureSerializer.h */,
+				BB731623197ED27B00806643 /* adskDataStructureSerializerDebug.h */,
+				BB731624197ED27B00806643 /* adskDebugCount.h */,
+				BB731625197ED27B00806643 /* adskDebugCRTP.h */,
+				BB731626197ED27B00806643 /* adskDebugCRTPImpl.h */,
+				BB731627197ED27B00806643 /* adskDebugFootprint.h */,
+				BB731628197ED27B00806643 /* adskDebugPrint.h */,
+				BB731629197ED27B00806643 /* adskRefCounted.h */,
+				BB73162A197ED27B00806643 /* d3dx11effect.h */,
+				BB73162B197ED27B00806643 /* d3dxGlobal.h */,
+				BB73162C197ED27B00806643 /* flib.h */,
+				BB73162D197ED27B00806643 /* flib8.h */,
+				BB73162E197ED27B00806643 /* glext.h */,
+				BB73162F197ED27B00806643 /* ilib.h */,
+				BB731630197ED27B00806643 /* M3dView.h */,
+				BB731631197ED27B00806643 /* MAddRemoveAttrEdit.h */,
+				BB731632197ED27B00806643 /* MAngle.h */,
+				BB731633197ED27B00806643 /* MAnimControl.h */,
+				BB731634197ED27B00806643 /* MAnimCurveChange.h */,
+				BB731635197ED27B00806643 /* MAnimCurveClipboard.h */,
+				BB731636197ED27B00806643 /* MAnimCurveClipboardItem.h */,
+				BB731637197ED27B00806643 /* MAnimCurveClipboardItemArray.h */,
+				BB731638197ED27B00806643 /* MAnimMessage.h */,
+				BB731639197ED27B00806643 /* MAnimUtil.h */,
+				BB73163A197ED27B00806643 /* MApiVersion.h */,
+				BB73163B197ED27B00806643 /* MArgDatabase.h */,
+				BB73163C197ED27B00806643 /* MArgList.h */,
+				BB73163D197ED27B00806643 /* MArgParser.h */,
+				BB73163E197ED27B00806643 /* MArrayDataBuilder.h */,
+				BB73163F197ED27B00806643 /* MArrayDataHandle.h */,
+				BB731640197ED27B00806643 /* MAtomic.h */,
+				BB731641197ED27B00806643 /* MAttributeIndex.h */,
+				BB731642197ED27B00806643 /* MAttributePattern.h */,
+				BB731643197ED27B00806643 /* MAttributePatternArray.h */,
+				BB731644197ED27B00806643 /* MAttributeSpec.h */,
+				BB731645197ED27B00806643 /* MAttributeSpecArray.h */,
+				BB731646197ED27B00806643 /* MBoundingBox.h */,
+				BB731647197ED27B00806643 /* MCacheFormatDescription.h */,
+				BB731648197ED27B00806643 /* MCallbackIdArray.h */,
+				BB731649197ED27B00806643 /* MCameraSetMessage.h */,
+				BB73164A197ED27B00806643 /* MClothConstraint.h */,
+				BB73164B197ED27B00806643 /* MClothConstraintBridge.h */,
+				BB73164C197ED27B00806643 /* MClothConstraintCmd.h */,
+				BB73164D197ED27B00806643 /* MClothControl.h */,
+				BB73164E197ED27B00806643 /* MClothEdge.h */,
+				BB73164F197ED27B00806643 /* MClothForce.h */,
+				BB731650197ED27B00806643 /* MClothMaterial.h */,
+				BB731651197ED27B00806643 /* MClothParticle.h */,
+				BB731652197ED27B00806643 /* MClothPolyhedron.h */,
+				BB731653197ED27B00806643 /* MClothSolverRegister.h */,
+				BB731654197ED27B00806643 /* MClothSystem.h */,
+				BB731655197ED27B00806643 /* MClothTriangle.h */,
+				BB731656197ED27B00806643 /* MClothTypes.h */,
+				BB731657197ED27B00806643 /* MColor.h */,
+				BB731658197ED27B00806643 /* MColorArray.h */,
+				BB731659197ED27B00806643 /* MCommandMessage.h */,
+				BB73165A197ED27C00806643 /* MCommandResult.h */,
+				BB73165B197ED27C00806643 /* MCommonRenderSettingsData.h */,
+				BB73165C197ED27C00806643 /* MCommonSystemUtils.h */,
+				BB73165D197ED27C00806643 /* MComponentDataIndexing.h */,
+				BB73165E197ED27C00806643 /* MComputation.h */,
+				BB73165F197ED27C00806643 /* MConditionMessage.h */,
+				BB731660197ED27C00806643 /* MConnectDisconnectAttrEdit.h */,
+				BB731661197ED27C00806643 /* MContainerMessage.h */,
+				BB731662197ED27C00806643 /* MCursor.h */,
+				BB731663197ED27C00806643 /* MD3D9Renderer.h */,
+				BB731664197ED27C00806643 /* MDagMessage.h */,
+				BB731665197ED27C00806643 /* MDagModifier.h */,
+				BB731666197ED27C00806643 /* MDagPath.h */,
+				BB731667197ED27C00806643 /* MDagPathArray.h */,
+				BB731668197ED27C00806643 /* MDataBlock.h */,
+				BB731669197ED27C00806643 /* MDataHandle.h */,
+				BB73166A197ED27C00806643 /* MDeviceChannel.h */,
+				BB73166B197ED27C00806643 /* MDeviceState.h */,
+				BB73166C197ED27C00806643 /* MDGContext.h */,
+				BB73166D197ED27C00806643 /* MDGMessage.h */,
+				BB73166E197ED27C00806643 /* MDGModifier.h */,
+				BB73166F197ED27C00806643 /* MDistance.h */,
+				BB731670197ED27C00806643 /* MDoubleArray.h */,
+				BB731671197ED27C00806643 /* MDrawContext.h */,
+				BB731672197ED27C00806643 /* MDrawData.h */,
+				BB731673197ED27C00806643 /* MDrawInfo.h */,
+				BB731674197ED27C00806643 /* MDrawProcedureBase.h */,
+				BB731675197ED27C00806643 /* MDrawRegistry.h */,
+				BB731676197ED27C00806643 /* MDrawRequest.h */,
+				BB731677197ED27C00806643 /* MDrawRequestQueue.h */,
+				BB731678197ED27C00806643 /* MDrawTraversal.h */,
+				BB731679197ED27C00806643 /* MDynamicsUtil.h */,
+				BB73167A197ED27C00806643 /* MDynSweptLine.h */,
+				BB73167B197ED27C00806643 /* MDynSweptTriangle.h */,
+				BB73167C197ED27C00806643 /* MEdit.h */,
+				BB73167D197ED27C00806643 /* MEulerRotation.h */,
+				BB73167E197ED27C00806643 /* MEvent.h */,
+				BB73167F197ED27C00806643 /* MEventMessage.h */,
+				BB731680197ED27C00806643 /* MExternalContentInfoTable.h */,
+				BB731681197ED27C00806643 /* MExternalContentLocationTable.h */,
+				BB731682197ED27C00806643 /* MExternalDropCallback.h */,
+				BB731683197ED27C00806643 /* MExternalDropData.h */,
+				BB731684197ED27C00806643 /* MFcurveEdit.h */,
+				BB731685197ED27C00806643 /* MFeedbackLine.h */,
+				BB731686197ED27C00806643 /* MFileIO.h */,
+				BB731687197ED27C00806643 /* MFileObject.h */,
+				BB731688197ED27C00806643 /* MFloatArray.h */,
+				BB731689197ED27C00806643 /* MFloatMatrix.h */,
+				BB73168A197ED27C00806643 /* MFloatPoint.h */,
+				BB73168B197ED27C00806643 /* MFloatPointArray.h */,
+				BB73168C197ED27C00806643 /* MFloatVector.h */,
+				BB73168D197ED27C00806643 /* MFloatVectorArray.h */,
+				BB73168E197ED27C00806643 /* MFn.h */,
+				BB73168F197ED27C00806643 /* MFnAirField.h */,
+				BB731690197ED27C00806643 /* MFnAmbientLight.h */,
+				BB731691197ED27C00806643 /* MFnAnimCurve.h */,
+				BB731692197ED27C00806643 /* MFnAnisotropyShader.h */,
+				BB731693197ED27C00806643 /* MFnAreaLight.h */,
+				BB731694197ED27C00806643 /* MFnArrayAttrsData.h */,
+				BB731695197ED27C00806643 /* MFnAssembly.h */,
+				BB731696197ED27C00806643 /* MFnAttribute.h */,
+				BB731697197ED27C00806643 /* MFnBase.h */,
+				BB731698197ED27C00806643 /* MFnBlendShapeDeformer.h */,
+				BB731699197ED27C00806643 /* MFnBlinnShader.h */,
+				BB73169A197ED27C00806643 /* MFnCamera.h */,
+				BB73169B197ED27C00806643 /* MFnCameraSet.h */,
+				BB73169C197ED27C00806643 /* MFnCharacter.h */,
+				BB73169D197ED27C00806643 /* MFnCircleSweepManip.h */,
+				BB73169E197ED27C00806643 /* MFnClip.h */,
+				BB73169F197ED27C00806643 /* MFnComponent.h */,
+				BB7316A0197ED27C00806643 /* MFnComponentListData.h */,
+				BB7316A1197ED27C00806643 /* MFnCompoundAttribute.h */,
+				BB7316A2197ED27C00806643 /* MFnContainerNode.h */,
+				BB7316A3197ED27C00806643 /* MFnCurveSegmentManip.h */,
+				BB7316A4197ED27C00806643 /* MFnDagNode.h */,
+				BB7316A5197ED27C00806643 /* MFnData.h */,
+				BB7316A6197ED27C00806643 /* MFnDependencyNode.h */,
+				BB7316A7197ED27C00806643 /* MFnDirectionalLight.h */,
+				BB7316A8197ED27C00806643 /* MFnDirectionManip.h */,
+				BB7316A9197ED27C00806643 /* MFnDiscManip.h */,
+				BB7316AA197ED27C00806643 /* MFnDistanceManip.h */,
+				BB7316AB197ED27C00806643 /* MFnDoubleArrayData.h */,
+				BB7316AC197ED27C00806643 /* MFnDoubleIndexedComponent.h */,
+				BB7316AD197ED27C00806643 /* MFnDragField.h */,
+				BB7316AE197ED27C00806643 /* MFnDynSweptGeometryData.h */,
+				BB7316AF197ED27C00806643 /* MFnEnumAttribute.h */,
+				BB7316B0197ED27C00806643 /* MFnExpression.h */,
+				BB7316B1197ED27C00806643 /* MFnField.h */,
+				BB7316B2197ED27C00806643 /* MFnFloatArrayData.h */,
+				BB7316B3197ED27C00806643 /* MFnFluid.h */,
+				BB7316B4197ED27C00806643 /* MFnFreePointTriadManip.h */,
+				BB7316B5197ED27C00806643 /* MFnGenericAttribute.h */,
+				BB7316B6197ED27C00806643 /* MFnGeometryData.h */,
+				BB7316B7197ED27C00806643 /* MFnGeometryFilter.h */,
+				BB7316B8197ED27C00806643 /* MFnGravityField.h */,
+				BB7316B9197ED27C00806643 /* MFnHikEffector.h */,
+				BB7316BA197ED27C00806643 /* MFnIkEffector.h */,
+				BB7316BB197ED27C00806643 /* MFnIkHandle.h */,
+				BB7316BC197ED27C00806643 /* MFnIkJoint.h */,
+				BB7316BD197ED27C00806643 /* MFnIkSolver.h */,
+				BB7316BE197ED27C00806643 /* MFnImageSource.h */,
+				BB7316BF197ED27C00806643 /* MFnInstancer.h */,
+				BB7316C0197ED27C00806643 /* MFnIntArrayData.h */,
+				BB7316C1197ED27C00806643 /* MFnKeyframeDelta.h */,
+				BB7316C2197ED27C00806643 /* MFnKeyframeDeltaAddRemove.h */,
+				BB7316C3197ED27C00806643 /* MFnKeyframeDeltaBlockAddRemove.h */,
+				BB7316C4197ED27C00806643 /* MFnKeyframeDeltaBreakdown.h */,
+				BB7316C5197ED27C00806643 /* MFnKeyframeDeltaInfType.h */,
+				BB7316C6197ED27C00806643 /* MFnKeyframeDeltaMove.h */,
+				BB7316C7197ED27C00806643 /* MFnKeyframeDeltaScale.h */,
+				BB7316C8197ED27C00806643 /* MFnKeyframeDeltaTangent.h */,
+				BB7316C9197ED27C00806643 /* MFnKeyframeDeltaWeighted.h */,
+				BB7316CA197ED27C00806643 /* MFnLambertShader.h */,
+				BB7316CB197ED27C00806643 /* MFnLattice.h */,
+				BB7316CC197ED27C00806643 /* MFnLatticeData.h */,
+				BB7316CD197ED27C00806643 /* MFnLatticeDeformer.h */,
+				BB7316CE197ED27C00806643 /* MFnLayeredShader.h */,
+				BB7316CF197ED27C00806643 /* MFnLight.h */,
+				BB7316D0197ED27C00806643 /* MFnLightDataAttribute.h */,
+				BB7316D1197ED27C00806643 /* MFnManip3D.h */,
+				BB7316D2197ED27C00806643 /* MFnMatrixAttribute.h */,
+				BB7316D3197ED27C00806643 /* MFnMatrixData.h */,
+				BB7316D4197ED27C00806643 /* MFnMesh.h */,
+				BB7316D5197ED27C00806643 /* MFnMeshData.h */,
+				BB7316D6197ED27C00806643 /* MFnMessageAttribute.h */,
+				BB7316D7197ED27C00806643 /* MFnMotionPath.h */,
+				BB7316D8197ED27C00806643 /* MFnNewtonField.h */,
+				BB7316D9197ED27C00806643 /* MFnNIdData.h */,
+				BB7316DA197ED27C00806643 /* MFnNObjectData.h */,
+				BB7316DB197ED27C00806643 /* MFnNonAmbientLight.h */,
+				BB7316DC197ED27C00806643 /* MFnNonExtendedLight.h */,
+				BB7316DD197ED27C00806643 /* MFnNumericAttribute.h */,
+				BB7316DE197ED27C00806643 /* MFnNumericData.h */,
+				BB7316DF197ED27C00806643 /* MFnNurbsCurve.h */,
+				BB7316E0197ED27C00806643 /* MFnNurbsCurveData.h */,
+				BB7316E1197ED27C00806643 /* MFnNurbsSurface.h */,
+				BB7316E2197ED27C00806643 /* MFnNurbsSurfaceData.h */,
+				BB7316E3197ED27C00806643 /* MFnParticleSystem.h */,
+				BB7316E4197ED27C00806643 /* MFnPartition.h */,
+				BB7316E5197ED27C00806643 /* MFnPfxGeometry.h */,
+				BB7316E6197ED27C00806643 /* MFnPhongEShader.h */,
+				BB7316E7197ED27C00806643 /* MFnPhongShader.h */,
+				BB7316E8197ED27C00806643 /* MFnPlugin.h */,
+				BB7316E9197ED27C00806643 /* MFnPluginData.h */,
+				BB7316EA197ED27C00806643 /* MFnPointArrayData.h */,
+				BB7316EB197ED27C00806643 /* MFnPointLight.h */,
+				BB7316EC197ED27C00806643 /* MFnPointOnCurveManip.h */,
+				BB7316ED197ED27C00806643 /* MFnPointOnSurfaceManip.h */,
+				BB7316EE197ED27C00806643 /* MFnRadialField.h */,
+				BB7316EF197ED27C00806643 /* MFnReference.h */,
+				BB7316F0197ED27C00806643 /* MFnReflectShader.h */,
+				BB7316F1197ED27C00806643 /* MFnRenderLayer.h */,
+				BB7316F2197ED27C00806643 /* MFnRenderPass.h */,
+				BB7316F3197ED27C00806643 /* MFnRotateManip.h */,
+				BB7316F4197ED27C00806643 /* MFnScaleManip.h */,
+				BB7316F5197ED27C00806643 /* MFnSet.h */,
+				BB7316F6197ED27C00806643 /* MFnSingleIndexedComponent.h */,
+				BB7316F7197ED27C00806643 /* MFnSkinCluster.h */,
+				BB7316F8197ED27C00806643 /* MFnSphereData.h */,
+				BB7316F9197ED27C00806643 /* MFnSpotLight.h */,
+				BB7316FA197ED27C00806643 /* MFnStateManip.h */,
+				BB7316FB197ED27C00806643 /* MFnStringArrayData.h */,
+				BB7316FC197ED27C00806643 /* MFnStringData.h */,
+				BB7316FD197ED27C00806643 /* MFnSubd.h */,
+				BB7316FE197ED27C00806643 /* MFnSubdData.h */,
+				BB7316FF197ED27C00806643 /* MFnSubdNames.h */,
+				BB731700197ED27C00806643 /* MFnToggleManip.h */,
+				BB731701197ED27C00806643 /* MFnToolContext.h */,
+				BB731702197ED27C00806643 /* MFnTransform.h */,
+				BB731703197ED27C00806643 /* MFnTripleIndexedComponent.h */,
+				BB731704197ED27C00806643 /* MFnTurbulenceField.h */,
+				BB731705197ED27C00806643 /* MFnTypedAttribute.h */,
+				BB731706197ED27C00806643 /* MFnUInt64ArrayData.h */,
+				BB731707197ED27C00806643 /* MFnUint64SingleIndexedComponent.h */,
+				BB731708197ED27C00806643 /* MFnUniformField.h */,
+				BB731709197ED27C00806643 /* MFnUnitAttribute.h */,
+				BB73170A197ED27C00806643 /* MFnVectorArrayData.h */,
+				BB73170B197ED27C00806643 /* MFnVolumeAxisField.h */,
+				BB73170C197ED27C00806643 /* MFnVolumeLight.h */,
+				BB73170D197ED27C00806643 /* MFnVortexField.h */,
+				BB73170E197ED27C00806643 /* MFnWeightGeometryFilter.h */,
+				BB73170F197ED27C00806643 /* MFnWireDeformer.h */,
+				BB731710197ED27C00806643 /* MFragmentManager.h */,
+				BB731711197ED27C00806643 /* MFrameContext.h */,
+				BB731712197ED27C00806643 /* MFStream.h */,
+				BB731713197ED27C00806643 /* MGeometry.h */,
+				BB731714197ED27C00806643 /* MGeometryData.h */,
+				BB731715197ED27C00806643 /* MGeometryExtractor.h */,
+				BB731716197ED27C00806643 /* MGeometryList.h */,
+				BB731717197ED27C00806643 /* MGeometryManager.h */,
+				BB731718197ED27C00806643 /* MGeometryPrimitive.h */,
+				BB731719197ED27C00806643 /* MGeometryRequirements.h */,
+				BB73171A197ED27C00806643 /* MGLdefinitions.h */,
+				BB73171B197ED27C00806643 /* MGLFunctionTable.h */,
+				BB73171C197ED27C00806643 /* MGlobal.h */,
+				BB73171D197ED27C00806643 /* MHairSystem.h */,
+				BB73171E197ED27C00806643 /* MHardwareRenderer.h */,
+				BB73171F197ED27C00806643 /* MHWGeometry.h */,
+				BB731720197ED27C00806643 /* MHWGeometryUtilities.h */,
+				BB731721197ED27C00806643 /* MHwrCallback.h */,
+				BB731722197ED27C00806643 /* MHWShaderSwatchGenerator.h */,
+				BB731723197ED27C00806643 /* MHwTextureManager.h */,
+				BB731724197ED27C00806643 /* MIffFile.h */,
+				BB731725197ED27C00806643 /* MIffTag.h */,
+				BB731726197ED27C00806643 /* MIkHandleGroup.h */,
+				BB731727197ED27C00806643 /* MIkSystem.h */,
+				BB731728197ED27C00806643 /* MImage.h */,
+				BB731729197ED27C00806643 /* MImageFileInfo.h */,
+				BB73172A197ED27C00806643 /* MIntArray.h */,
+				BB73172B197ED27C00806643 /* MIOStream.h */,
+				BB73172C197ED27C00806643 /* MIOStreamFwd.h */,
+				BB73172D197ED27C00806643 /* MItCurveCV.h */,
+				BB73172E197ED27C00806643 /* MItDag.h */,
+				BB73172F197ED27C00806643 /* MItDependencyGraph.h */,
+				BB731730197ED27C00806643 /* MItDependencyNodes.h */,
+				BB731731197ED27C00806643 /* MItEdits.h */,
+				BB731732197ED27C00806643 /* MIteratorType.h */,
+				BB731733197ED27C00806643 /* MItGeometry.h */,
+				BB731734197ED27C00806643 /* MItInstancer.h */,
+				BB731735197ED27C00806643 /* MItKeyframe.h */,
+				BB731736197ED27C00806643 /* MItMeshEdge.h */,
+				BB731737197ED27C00806643 /* MItMeshFaceVertex.h */,
+				BB731738197ED27C00806643 /* MItMeshPolygon.h */,
+				BB731739197ED27C00806643 /* MItMeshVertex.h */,
+				BB73173A197ED27C00806643 /* MItSelectionList.h */,
+				BB73173B197ED27C00806643 /* MItSubdEdge.h */,
+				BB73173C197ED27C00806643 /* MItSubdFace.h */,
+				BB73173D197ED27C00806643 /* MItSubdVertex.h */,
+				BB73173E197ED27C00806643 /* MItSurfaceCV.h */,
+				BB73173F197ED27C00806643 /* MLibrary.h */,
+				BB731740197ED27C00806643 /* MLightLinks.h */,
+				BB731741197ED27C00806643 /* MLockMessage.h */,
+				BB731742197ED27C00806643 /* MManipData.h */,
+				BB731743197ED27C00806643 /* MMaterial.h */,
+				BB731744197ED27C00806643 /* MMaterialArray.h */,
+				BB731745197ED27C00806643 /* MMatrix.h */,
+				BB731746197ED27C00806643 /* MMatrixArray.h */,
+				BB731747197ED27C00806643 /* MMeshIntersector.h */,
+				BB731748197ED27C00806643 /* MMeshSmoothOptions.h */,
+				BB731749197ED27C00806643 /* MMessage.h */,
+				BB73174A197ED27C00806643 /* MModelMessage.h */,
+				BB73174B197ED27C00806643 /* MMutexLock.h */,
+				BB73174C197ED27C00806643 /* MNamespace.h */,
+				BB73174D197ED27C00806643 /* MNativeWindowHdl.h */,
+				BB73174E197ED27C00806643 /* MnCloth.h */,
+				BB73174F197ED27C00806643 /* MnObject.h */,
+				BB731750197ED27C00806643 /* MNodeClass.h */,
+				BB731751197ED27C00806643 /* MNodeMessage.h */,
+				BB731752197ED27C00806643 /* MnParticle.h */,
+				BB731753197ED27C00806643 /* MnRigid.h */,
+				BB731754197ED27C00806643 /* MnSolver.h */,
+				BB731755197ED27C00806643 /* MNurbsIntersector.h */,
+				BB731756197ED27C00806643 /* MObject.h */,
+				BB731757197ED27C00806643 /* MObjectArray.h */,
+				BB731758197ED27C00806643 /* MObjectHandle.h */,
+				BB731759197ED27C00806643 /* MObjectListFilter.h */,
+				BB73175A197ED27C00806643 /* MObjectSetMessage.h */,
+				BB73175B197ED27C00806643 /* mocapserial.h */,
+				BB73175C197ED27C00806643 /* mocapserver.h */,
+				BB73175D197ED27C00806643 /* mocaptcp.h */,
+				BB73175E197ED27C00806643 /* MParentingEdit.h */,
+				BB73175F197ED27C00806643 /* MPlane.h */,
+				BB731760197ED27C00806643 /* MPlug.h */,
+				BB731761197ED27C00806643 /* MPlugArray.h */,
+				BB731762197ED27C00806643 /* MPoint.h */,
+				BB731763197ED27C00806643 /* MPointArray.h */,
+				BB731764197ED27C00806643 /* MPolyMessage.h */,
+				BB731765197ED27C00806643 /* MProgressWindow.h */,
+				BB731766197ED27C00806643 /* MPx3dModelView.h */,
+				BB731767197ED27C00806643 /* MPxAssembly.h */,
+				BB731768197ED27C00806643 /* MPxAttributePatternFactory.h */,
+				BB731769197ED27C00806643 /* MPxBakeEngine.h */,
+				BB73176A197ED27C00806643 /* MPxCacheFormat.h */,
+				BB73176B197ED27C00806643 /* MPxCameraSet.h */,
+				BB73176C197ED27C00806643 /* MPxClientDeviceNode.h */,
+				BB73176D197ED27C00806643 /* MPxCommand.h */,
+				BB73176E197ED27C00806643 /* MPxComponentShape.h */,
+				BB73176F197ED27C00806643 /* MPxConstraint.h */,
+				BB731770197ED27C00806643 /* MPxConstraintCommand.h */,
+				BB731771197ED27C00806643 /* MPxContext.h */,
+				BB731772197ED27C00806643 /* MPxContextCommand.h */,
+				BB731773197ED27C00806643 /* MPxControlCommand.h */,
+				BB731774197ED27C00806643 /* MPxData.h */,
+				BB731775197ED27C00806643 /* MPxDeformerNode.h */,
+				BB731776197ED27D00806643 /* MPxDragAndDropBehavior.h */,
+				BB731777197ED27D00806643 /* MPxDrawOverride.h */,
+				BB731778197ED27D00806643 /* MPxEditData.h */,
+				BB731779197ED27D00806643 /* MPxEmitterNode.h */,
+				BB73177A197ED27D00806643 /* MPxFieldNode.h */,
+				BB73177B197ED27D00806643 /* MPxFileResolver.h */,
+				BB73177C197ED27D00806643 /* MPxFileTranslator.h */,
+				BB73177D197ED27D00806643 /* MPxFluidEmitterNode.h */,
+				BB73177E197ED27D00806643 /* MPxGeometryData.h */,
+				BB73177F197ED27D00806643 /* MPxGeometryIterator.h */,
+				BB731780197ED27D00806643 /* MPxGeometryOverride.h */,
+				BB731781197ED27D00806643 /* MPxGlBuffer.h */,
+				BB731782197ED27D00806643 /* MPxHardwareShader.h */,
+				BB731783197ED27D00806643 /* MPxHwShaderNode.h */,
+				BB731784197ED27D00806643 /* MPxIkSolver.h */,
+				BB731785197ED27D00806643 /* MPxIkSolverNode.h */,
+				BB731786197ED27D00806643 /* MPxImageFile.h */,
+				BB731787197ED27D00806643 /* MPxImagePlane.h */,
+				BB731788197ED27D00806643 /* MPxIndexBufferMutator.h */,
+				BB731789197ED27D00806643 /* MPxLocatorNode.h */,
+				BB73178A197ED27D00806643 /* MPxManipContainer.h */,
+				BB73178B197ED27D00806643 /* MPxManipulatorNode.h */,
+				BB73178C197ED27D00806643 /* MPxMaterialInformation.h */,
+				BB73178D197ED27D00806643 /* MPxMayaAsciiFilter.h */,
+				BB73178E197ED27D00806643 /* MPxMidiInputDevice.h */,
+				BB73178F197ED27D00806643 /* MPxModelEditorCommand.h */,
+				BB731790197ED27D00806643 /* MPxNode.h */,
+				BB731791197ED27D00806643 /* MPxObjectSet.h */,
+				BB731792197ED27D00806643 /* MPxParticleAttributeMapperNode.h */,
+				BB731793197ED27D00806643 /* MPxPolyTrg.h */,
+				BB731794197ED27D00806643 /* MPxPolyTweakUVCommand.h */,
+				BB731795197ED27D00806643 /* MPxPrimitiveGenerator.h */,
+				BB731796197ED27D00806643 /* MPxRenderPassImpl.h */,
+				BB731797197ED27D00806643 /* MPxRepresentation.h */,
+				BB731798197ED27D00806643 /* MPxSelectionContext.h */,
+				BB731799197ED27D00806643 /* MPxShaderOverride.h */,
+				BB73179A197ED27D00806643 /* MPxShadingNodeOverride.h */,
+				BB73179B197ED27D00806643 /* MPxSpringNode.h */,
+				BB73179C197ED27D00806643 /* MPxSubSceneOverride.h */,
+				BB73179D197ED27D00806643 /* MPxSurfaceShadingNodeOverride.h */,
+				BB73179E197ED27D00806643 /* MPxSurfaceShape.h */,
+				BB73179F197ED27D00806643 /* MPxSurfaceShapeUI.h */,
+				BB7317A0197ED27D00806643 /* MPxThreadedDeviceNode.h */,
+				BB7317A1197ED27D00806643 /* MPxToolCommand.h */,
+				BB7317A2197ED27D00806643 /* MPxTransform.h */,
+				BB7317A3197ED27D00806643 /* MPxTransformationMatrix.h */,
+				BB7317A4197ED27D00806643 /* MPxUIControl.h */,
+				BB7317A5197ED27D00806643 /* MPxUITableControl.h */,
+				BB7317A6197ED27D00806643 /* MPxVertexBufferGenerator.h */,
+				BB7317A7197ED27D00806643 /* MPxVertexBufferMutator.h */,
+				BB7317A8197ED27D00806643 /* MQtUtil.h */,
+				BB7317A9197ED27D00806643 /* MQuaternion.h */,
+				BB7317AA197ED27D00806643 /* MRampAttribute.h */,
+				BB7317AB197ED27D00806643 /* MRenderCallback.h */,
+				BB7317AC197ED27D00806643 /* MRenderData.h */,
+				BB7317AD197ED27D00806643 /* MRenderingInfo.h */,
+				BB7317AE197ED27D00806643 /* MRenderLine.h */,
+				BB7317AF197ED27D00806643 /* MRenderLineArray.h */,
+				BB7317B0197ED27D00806643 /* MRenderPassDef.h */,
+				BB7317B1197ED27D00806643 /* MRenderPassRegistry.h */,
+				BB7317B2197ED27D00806643 /* MRenderProfile.h */,
+				BB7317B3197ED27D00806643 /* MRenderShadowData.h */,
+				BB7317B4197ED27D00806643 /* MRenderTarget.h */,
+				BB7317B5197ED27D00806643 /* MRenderTargetManager.h */,
+				BB7317B6197ED27D00806643 /* MRenderUtil.h */,
+				BB7317B7197ED27D00806643 /* MRenderUtilities.h */,
+				BB7317B8197ED27D00806643 /* MRenderView.h */,
+				BB7317B9197ED27D00806643 /* MRichSelection.h */,
+				BB7317BA197ED27D00806643 /* MSceneMessage.h */,
+				BB7317BB197ED27D00806643 /* MScriptUtil.h */,
+				BB7317BC197ED27D00806643 /* MSelectInfo.h */,
+				BB7317BD197ED27D00806643 /* MSelectionList.h */,
+				BB7317BE197ED27D00806643 /* MSelectionMask.h */,
+				BB7317BF197ED27D00806643 /* MSetAttrEdit.h */,
+				BB7317C0197ED27D00806643 /* MShaderManager.h */,
+				BB7317C1197ED27D00806643 /* MSimple.h */,
+				BB7317C2197ED27D00806643 /* MSpinLock.h */,
+				BB7317C3197ED27D00806643 /* MStateManager.h */,
+				BB7317C4197ED27D00806643 /* MStatus.h */,
+				BB7317C5197ED27D00806643 /* MStreamUtils.h */,
+				BB7317C6197ED27D00806643 /* MString.h */,
+				BB7317C7197ED27D00806643 /* MStringArray.h */,
+				BB7317C8197ED27D00806643 /* MStringResource.h */,
+				BB7317C9197ED27D00806643 /* MStringResourceId.h */,
+				BB7317CA197ED27D00806643 /* MSwatchRenderBase.h */,
+				BB7317CB197ED27D00806643 /* MSwatchRenderRegister.h */,
+				BB7317CC197ED27D00806643 /* MSyntax.h */,
+				BB7317CD197ED27D00806643 /* MTemplateCommand.h */,
+				BB7317CE197ED27D00806643 /* MTemplateManipulator.h */,
+				BB7317CF197ED27D00806643 /* MTesselationParams.h */,
+				BB7317D0197ED27D00806643 /* MTextureEditorDrawInfo.h */,
+				BB7317D1197ED27D00806643 /* MTextureManager.h */,
+				BB7317D2197ED27D00806643 /* MThreadAsync.h */,
+				BB7317D3197ED27D00806643 /* MThreadPool.h */,
+				BB7317D4197ED27D00806643 /* MThreadUtils.h */,
+				BB7317D5197ED27D00806643 /* MTime.h */,
+				BB7317D6197ED27D00806643 /* MTimeArray.h */,
+				BB7317D7197ED27D00806643 /* MTimer.h */,
+				BB7317D8197ED27D00806643 /* MTimerMessage.h */,
+				BB7317D9197ED27D00806643 /* MToolsInfo.h */,
+				BB7317DA197ED27D00806643 /* MTransformationMatrix.h */,
+				BB7317DB197ED27D00806643 /* MTrimBoundaryArray.h */,
+				BB7317DC197ED27D00806643 /* MTypeId.h */,
+				BB7317DD197ED27D00806643 /* MTypes.h */,
+				BB7317DE197ED27D00806643 /* MUIDrawManager.h */,
+				BB7317DF197ED27D00806643 /* MUiMessage.h */,
+				BB7317E0197ED27D00806643 /* MUint64Array.h */,
+				BB7317E1197ED27D00806643 /* MUintArray.h */,
+				BB7317E2197ED27D00806643 /* MUniformParameter.h */,
+				BB7317E3197ED27D00806643 /* MUniformParameterList.h */,
+				BB7317E4197ED27D00806643 /* MURI.h */,
+				BB7317E5197ED27D00806643 /* MUserData.h */,
+				BB7317E6197ED27D00806643 /* MUserEventMessage.h */,
+				BB7317E7197ED27D00806643 /* MVaryingParameter.h */,
+				BB7317E8197ED27D00806643 /* MVaryingParameterList.h */,
+				BB7317E9197ED27D00806643 /* MVector.h */,
+				BB7317EA197ED27D00806643 /* MVectorArray.h */,
+				BB7317EB197ED27D00806643 /* MViewport2Renderer.h */,
+				BB7317EC197ED27D00806643 /* MViewportRenderer.h */,
+				BB7317ED197ED27D00806643 /* MWeight.h */,
+				BB7317EE197ED27D00806643 /* OpenMayaMac.h */,
+			);
+			name = maya;
+			path = ../../../../Applications/Autodesk/maya2015/devkit/include/maya;
+			sourceTree = "<group>";
+		};
+		BBF15E61199C046600FA1202 /* libs */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = libs;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D2AAC0600554660B00DB518D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB39C87019905902001982B3 /* trangulateCmd.h in Headers */,
+				BB39C86C19905902001982B3 /* objExport.h in Headers */,
+				BB3E50DF19B7978200D0EED3 /* recordCameraTrace.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		D2AAC0620554660B00DB518D /* cameraTraceBuilder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A7F05ED086863A70064D097 /* Build configuration list for PBXNativeTarget "cameraTraceBuilder" */;
+			buildPhases = (
+				D2AAC0600554660B00DB518D /* Headers */,
+				D2AAC0610554660B00DB518D /* Sources */,
+				D289988505E68E00004EDB86 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = cameraTraceBuilder;
+			productName = objExportPlugin;
+			productReference = D2AAC0630554660B00DB518D /* cameraTraceBuilder.bundle */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08FB7793FE84155DC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+			};
+			buildConfigurationList = 8A7F05F1086863A70064D097 /* Build configuration list for PBXProject "cameraTraceBuilder" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 08FB7794FE84155DC02AAC07 /* objExportPlugin */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2AAC0620554660B00DB518D /* cameraTraceBuilder */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D2AAC0610554660B00DB518D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB80759619AC3F81009AA92F /* objExport.h in Sources */,
+				BB3E50DE19B7978200D0EED3 /* recordCameraTrace.cpp in Sources */,
+				BB80759819AC3F81009AA92F /* trangulateCmd.h in Sources */,
+				BB3ABBA819AD3B7D0071F7C6 /* objExport.cpp in Sources */,
+				BB39C86D19905902001982B3 /* pluginMain.cpp in Sources */,
+				BB39C87119905902001982B3 /* triangulateCmd.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		8A7F05EE086863A70064D097 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_CXX_LIBRARY = "libstdc++";
+				CLANG_MODULES_AUTOLINK = YES;
+				COPY_PHASE_STRIP = NO;
+				DYLIB_COMPATIBILITY_VERSION = "";
+				DYLIB_CURRENT_VERSION = "";
+				EXECUTABLE_EXTENSION = bundle;
+				FRAMEWORK_SEARCH_PATHS = /Applications/Autodesk/maya2015/Maya.app/Contents/Frameworks;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INPUT_FILETYPE = sourcecode.cpp.cpp;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_MASTER_OBJECT_FILE = YES;
+				INSTALL_PATH = /usr/local/lib;
+				LIBRARY_SEARCH_PATHS = (
+					"$(MAYA_DIRECTORY)/Maya.app/Contents/MacOS",
+					"/Applications/Autodesk/maya2015/Maya.app/Contents/MacOS/**",
+					"$(PROJECT_DIR)",
+					"$(SDKROOT)/usr/lib/system",
+					"$(SDKROOT)/usr/lib/dtrace",
+					"$(SDKROOT)/usr/lib/freeradius",
+					"$(SDKROOT)/usr/lib/python2.6/config",
+					"$(SDKROOT)/usr/lib/python2.7/config",
+				);
+				LIBRARY_STYLE = BUNDLE;
+				MACH_O_TYPE = mh_bundle;
+				OTHER_LDFLAGS = (
+					"-lOpenMayaUI",
+					"-lOpenMayaFx",
+					"-lOpenMayaAnim",
+					"-lOpenMaya",
+					"-Wl,-executable_path,$(MAYA_DIRECTORY)/Maya.app/Contents/MacOS",
+					"-Wl,-exported_symbol,__Z16initializePlugin7MObject",
+					"-Wl,-exported_symbol,__Z18uninitializePlugin7MObject",
+					"-lOpenMaya",
+					"-lFoundation",
+					"-install_name@excutable_path/libName.dylib",
+					"-rpath",
+				);
+				PREBINDING = NO;
+				"PRELINK_LIBS[arch=*]" = "";
+				PRODUCT_NAME = cameraTraceBuilder;
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		8A7F05EF086863A70064D097 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_CXX_LIBRARY = "libstdc++";
+				CLANG_MODULES_AUTOLINK = YES;
+				COPY_PHASE_STRIP = YES;
+				DYLIB_COMPATIBILITY_VERSION = "";
+				DYLIB_CURRENT_VERSION = "";
+				EXECUTABLE_EXTENSION = bundle;
+				FRAMEWORK_SEARCH_PATHS = /Applications/Autodesk/maya2015/Maya.app/Contents/Frameworks;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INPUT_FILETYPE = sourcecode.cpp.cpp;
+				GCC_MODEL_TUNING = G5;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_MASTER_OBJECT_FILE = YES;
+				INSTALL_PATH = /usr/local/lib;
+				LIBRARY_SEARCH_PATHS = (
+					"$(MAYA_DIRECTORY)/Maya.app/Contents/MacOS",
+					"/Applications/Autodesk/maya2015/Maya.app/Contents/MacOS/**",
+					"$(PROJECT_DIR)",
+					"$(SDKROOT)/usr/lib/system",
+					"$(SDKROOT)/usr/lib/dtrace",
+					"$(SDKROOT)/usr/lib/freeradius",
+					"$(SDKROOT)/usr/lib/python2.6/config",
+					"$(SDKROOT)/usr/lib/python2.7/config",
+				);
+				LIBRARY_STYLE = BUNDLE;
+				MACH_O_TYPE = mh_bundle;
+				OTHER_LDFLAGS = (
+					"-lOpenMayaUI",
+					"-lOpenMayaFx",
+					"-lOpenMayaAnim",
+					"-lOpenMaya",
+					"-Wl,-executable_path,$(MAYA_DIRECTORY)/Maya.app/Contents/MacOS",
+					"-Wl,-exported_symbol,__Z16initializePlugin7MObject",
+					"-Wl,-exported_symbol,__Z18uninitializePlugin7MObject",
+					"-lOpenMaya",
+					"-lFoundation",
+					"-install_name@excutable_path/libName.dylib",
+					"-rpath",
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = cameraTraceBuilder;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		8A7F05F2086863A70064D097 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_CXX_LIBRARY = "libstdc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_X86_VECTOR_INSTRUCTIONS = default;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.framework *.gch *.xcode* (*) .DS_Store CVS .svn .git .hg";
+				FRAMEWORK_SEARCH_PATHS = "/Applications/Autodesk/maya2015/Maya.app/Contents/Frameworks/**";
+				GCC_ENABLE_TRIGRAPHS = YES;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = YES;
+				GCC_INPUT_FILETYPE = sourcecode.cpp.cpp;
+				GCC_MODEL_TUNING = "";
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(MAYA_DIRECTORY)/devkit/include/maya/OpenMayaMac.h";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					MAC_PLUGIN,
+					_BOOL,
+					REQUIRE_IOSTREAM,
+				);
+				GCC_VERSION = "";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					.,
+					"$(MAYA_DIRECTORY)/devkit/include/",
+				);
+				LD_DYLIB_INSTALL_NAME = "";
+				LIBRARY_SEARCH_PATHS = "$(MAYA_DIRECTORY)/Maya.app/Contents/MacOS";
+				LIBRARY_STYLE = BUNDLE;
+				MACH_O_TYPE = mh_bundle;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				MAYA_DIRECTORY = /Applications/Autodesk/maya2015;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = (
+					"-Wl,-executable_path,$(MAYA_DIRECTORY)/Maya.app/Contents/MacOS",
+					"-Wl,-exported_symbol,__Z16initializePlugin7MObject",
+					"-Wl,-exported_symbol,__Z18uninitializePlugin7MObject",
+					"-stdlib=libstdc++",
+					"-lstdc++",
+					"-lFoundation",
+					"-lOpenMayaAnim",
+					"-lOpenMaya",
+					"-lOpenMayaFx",
+					"-lOpenMayaRender",
+					"-lOpenMayaUI",
+					"-lpthread",
+				);
+				PRELINK_LIBS = "";
+				SDKROOT = macosx10.8;
+				SUPPORTED_PLATFORMS = macosx;
+				USER_HEADER_SEARCH_PATHS = /Applications/Autodesk/maya2015/devkit/include/maya;
+				VALID_ARCHS = x86_64;
+			};
+			name = Debug;
+		};
+		8A7F05F3086863A70064D097 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_CXX_LIBRARY = "libstdc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_X86_VECTOR_INSTRUCTIONS = default;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.framework *.gch *.xcode* (*) .DS_Store CVS .svn .git .hg";
+				FRAMEWORK_SEARCH_PATHS = "/Applications/Autodesk/maya2015/Maya.app/Contents/Frameworks/**";
+				GCC_ENABLE_TRIGRAPHS = YES;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = YES;
+				GCC_INPUT_FILETYPE = sourcecode.cpp.cpp;
+				GCC_MODEL_TUNING = "";
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(MAYA_DIRECTORY)/devkit/include/maya/OpenMayaMac.h";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					MAC_PLUGIN,
+					_BOOL,
+					REQUIRE_IOSTREAM,
+				);
+				GCC_VERSION = "";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					.,
+					"$(MAYA_DIRECTORY)/devkit/include/",
+				);
+				LD_DYLIB_INSTALL_NAME = "";
+				LIBRARY_SEARCH_PATHS = "$(MAYA_DIRECTORY)/Maya.app/Contents/MacOS";
+				LIBRARY_STYLE = BUNDLE;
+				MACH_O_TYPE = mh_bundle;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				MAYA_DIRECTORY = /Applications/Autodesk/maya2015;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = (
+					"-Wl,-executable_path,$(MAYA_DIRECTORY)/Maya.app/Contents/MacOS",
+					"-Wl,-exported_symbol,__Z16initializePlugin7MObject",
+					"-Wl,-exported_symbol,__Z18uninitializePlugin7MObject",
+					"-stdlib=libstdc++",
+					"-lstdc++",
+					"-lFoundation",
+					"-lOpenMayaAnim",
+					"-lOpenMaya",
+					"-lOpenMayaFx",
+					"-lOpenMayaRender",
+					"-lOpenMayaUI",
+					"-lpthread",
+				);
+				PRELINK_LIBS = "";
+				SDKROOT = macosx10.8;
+				SUPPORTED_PLATFORMS = macosx;
+				USER_HEADER_SEARCH_PATHS = /Applications/Autodesk/maya2015/devkit/include/maya;
+				VALID_ARCHS = x86_64;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8A7F05ED086863A70064D097 /* Build configuration list for PBXNativeTarget "cameraTraceBuilder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A7F05EE086863A70064D097 /* Debug */,
+				8A7F05EF086863A70064D097 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		8A7F05F1086863A70064D097 /* Build configuration list for PBXProject "cameraTraceBuilder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A7F05F2086863A70064D097 /* Debug */,
+				8A7F05F3086863A70064D097 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 08FB7793FE84155DC02AAC07 /* Project object */;
+}
