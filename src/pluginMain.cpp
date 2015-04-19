@@ -11,10 +11,13 @@
 //
 
 
+
+
 #include "cameraControlCmd.h"
 #include "recordCameraTrace.h"
 #include "objExport.h"
 #include "trangulateCmd.h"
+#include "tcpServerTestCmd.h"
 #include <maya/MFnPlugin.h>
 
 MStatus initializePlugin( MObject obj )
@@ -36,7 +39,12 @@ MStatus initializePlugin( MObject obj )
 		errStr = "registerCommand failed";
 		goto error;
 	}
-
+    stat = plugin.registerCommand("serverStart", tcpServerTestCmd::creator);
+    if(!stat)
+    {
+        errStr = "register serverstart command failed";
+        goto error;
+    }
 
 //==========register nodes============
 	//stat = plugin.registerNode( "melt", MeltNode::id, MeltNode::creator, MeltNode::initialize );

@@ -18,6 +18,7 @@
 #include <maya/MDagPath.h>
 #include <maya/MPoint.h>
 #include <maya/MVector.h>
+#include "dlib/sockets.h"
 
 class cameraControlCmd : public MPxCommand 
 {
@@ -36,6 +37,7 @@ public:
 	MStatus getCameraParameters();
 
 private:
+    
 	MDagPath camera;		//used to store the activity camera node path
 	MDGModifier dgMod;
 

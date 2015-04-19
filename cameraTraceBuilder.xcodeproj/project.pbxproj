@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BB2CEEDA1AE4225E00B95E4E /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB2CEED91AE4225E00B95E4E /* CoreServices.framework */; };
+		BB2CEEDC1AE4226800B95E4E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB2CEEDB1AE4226800B95E4E /* Cocoa.framework */; };
+		BB2CEEDE1AE4227100B95E4E /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB2CEEDD1AE4227100B95E4E /* Carbon.framework */; };
+		BB2CEEE01AE4228400B95E4E /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB2CEEDF1AE4228400B95E4E /* SystemConfiguration.framework */; };
+		BB2CEEE21AE422A000B95E4E /* ApplicationServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB2CEEE11AE422A000B95E4E /* ApplicationServices.framework */; };
+		BB2CEEE41AE422AC00B95E4E /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB2CEEE31AE422AC00B95E4E /* IOKit.framework */; };
 		BB39C86C19905902001982B3 /* objExport.h in Headers */ = {isa = PBXBuildFile; fileRef = BB39C85F19905902001982B3 /* objExport.h */; };
 		BB39C86D19905902001982B3 /* pluginMain.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB39C86019905902001982B3 /* pluginMain.cpp */; };
 		BB39C87019905902001982B3 /* trangulateCmd.h in Headers */ = {isa = PBXBuildFile; fileRef = BB39C86319905902001982B3 /* trangulateCmd.h */; };
@@ -16,10 +22,20 @@
 		BB3E50DF19B7978200D0EED3 /* recordCameraTrace.h in Headers */ = {isa = PBXBuildFile; fileRef = BB3E50DD19B7978200D0EED3 /* recordCameraTrace.h */; };
 		BB80759619AC3F81009AA92F /* objExport.h in Sources */ = {isa = PBXBuildFile; fileRef = BB39C85F19905902001982B3 /* objExport.h */; };
 		BB80759819AC3F81009AA92F /* trangulateCmd.h in Sources */ = {isa = PBXBuildFile; fileRef = BB39C86319905902001982B3 /* trangulateCmd.h */; };
+		BBF379CA1ADF46D200E2724D /* tcpServerTestCmd.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBF379C81ADF46D200E2724D /* tcpServerTestCmd.cpp */; };
+		BBF379CB1ADF46D200E2724D /* tcpServerTestCmd.h in Headers */ = {isa = PBXBuildFile; fileRef = BBF379C91ADF46D200E2724D /* tcpServerTestCmd.h */; };
+		BBF37AA91AE05DF000E2724D /* platform.h in Headers */ = {isa = PBXBuildFile; fileRef = BBF37AA81AE05DF000E2724D /* platform.h */; };
+		BBF37AAD1AE0889900E2724D /* source.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBF37AAC1AE0889900E2724D /* source.cpp */; };
 		BBFB172719775A4F00326C08 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBFB172619775A4F00326C08 /* CoreFoundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BB2CEED91AE4225E00B95E4E /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = System/Library/Frameworks/CoreServices.framework; sourceTree = SDKROOT; };
+		BB2CEEDB1AE4226800B95E4E /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		BB2CEEDD1AE4227100B95E4E /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = System/Library/Frameworks/Carbon.framework; sourceTree = SDKROOT; };
+		BB2CEEDF1AE4228400B95E4E /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		BB2CEEE11AE422A000B95E4E /* ApplicationServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ApplicationServices.framework; path = System/Library/Frameworks/ApplicationServices.framework; sourceTree = SDKROOT; };
+		BB2CEEE31AE422AC00B95E4E /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
 		BB39C85F19905902001982B3 /* objExport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = objExport.h; path = src/objExport.h; sourceTree = "<group>"; };
 		BB39C86019905902001982B3 /* pluginMain.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = pluginMain.cpp; path = src/pluginMain.cpp; sourceTree = "<group>"; };
 		BB39C86319905902001982B3 /* trangulateCmd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = trangulateCmd.h; path = src/trangulateCmd.h; sourceTree = "<group>"; };
@@ -513,6 +529,10 @@
 		BB7317ED197ED27D00806643 /* MWeight.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MWeight.h; sourceTree = "<group>"; };
 		BB7317EE197ED27D00806643 /* OpenMayaMac.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OpenMayaMac.h; sourceTree = "<group>"; };
 		BBBE15E2198A15BB004AF326 /* Maya.app */ = {isa = PBXFileReference; lastKnownFileType = wrapper.application; name = Maya.app; path = ../../../../Applications/Autodesk/maya2015/Maya.app; sourceTree = "<group>"; };
+		BBF379C81ADF46D200E2724D /* tcpServerTestCmd.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = tcpServerTestCmd.cpp; path = src/tcpServerTestCmd.cpp; sourceTree = "<group>"; };
+		BBF379C91ADF46D200E2724D /* tcpServerTestCmd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = tcpServerTestCmd.h; path = src/tcpServerTestCmd.h; sourceTree = "<group>"; };
+		BBF37AA81AE05DF000E2724D /* platform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = platform.h; sourceTree = "<group>"; };
+		BBF37AAC1AE0889900E2724D /* source.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = source.cpp; path = dlib/all/source.cpp; sourceTree = "<group>"; };
 		BBFB172619775A4F00326C08 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
 		D2AAC0630554660B00DB518D /* cameraTraceBuilder.bundle */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = cameraTraceBuilder.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -522,6 +542,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB2CEEE41AE422AC00B95E4E /* IOKit.framework in Frameworks */,
+				BB2CEEE21AE422A000B95E4E /* ApplicationServices.framework in Frameworks */,
+				BB2CEEE01AE4228400B95E4E /* SystemConfiguration.framework in Frameworks */,
+				BB2CEEDE1AE4227100B95E4E /* Carbon.framework in Frameworks */,
+				BB2CEEDC1AE4226800B95E4E /* Cocoa.framework in Frameworks */,
+				BB2CEEDA1AE4225E00B95E4E /* CoreServices.framework in Frameworks */,
 				BBFB172719775A4F00326C08 /* CoreFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -532,6 +558,13 @@
 		08FB7794FE84155DC02AAC07 /* objExportPlugin */ = {
 			isa = PBXGroup;
 			children = (
+				BB2CEEE31AE422AC00B95E4E /* IOKit.framework */,
+				BB2CEEE11AE422A000B95E4E /* ApplicationServices.framework */,
+				BB2CEEDF1AE4228400B95E4E /* SystemConfiguration.framework */,
+				BB2CEEDD1AE4227100B95E4E /* Carbon.framework */,
+				BB2CEEDB1AE4226800B95E4E /* Cocoa.framework */,
+				BB2CEED91AE4225E00B95E4E /* CoreServices.framework */,
+				BBF37AAC1AE0889900E2724D /* source.cpp */,
 				BBF15E61199C046600FA1202 /* libs */,
 				BBBE15E2198A15BB004AF326 /* Maya.app */,
 				BB731609197ED27B00806643 /* maya */,
@@ -554,6 +587,9 @@
 				BB39C86019905902001982B3 /* pluginMain.cpp */,
 				BB39C86319905902001982B3 /* trangulateCmd.h */,
 				BB39C86419905902001982B3 /* triangulateCmd.cpp */,
+				BBF37AA81AE05DF000E2724D /* platform.h */,
+				BBF379C81ADF46D200E2724D /* tcpServerTestCmd.cpp */,
+				BBF379C91ADF46D200E2724D /* tcpServerTestCmd.h */,
 			);
 			name = Source;
 			sourceTree = "<group>";
@@ -1087,9 +1123,11 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BBF379CB1ADF46D200E2724D /* tcpServerTestCmd.h in Headers */,
 				BB39C87019905902001982B3 /* trangulateCmd.h in Headers */,
 				BB39C86C19905902001982B3 /* objExport.h in Headers */,
 				BB3E50DF19B7978200D0EED3 /* recordCameraTrace.h in Headers */,
+				BBF37AA91AE05DF000E2724D /* platform.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1143,8 +1181,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				BB80759619AC3F81009AA92F /* objExport.h in Sources */,
+				BBF379CA1ADF46D200E2724D /* tcpServerTestCmd.cpp in Sources */,
 				BB3E50DE19B7978200D0EED3 /* recordCameraTrace.cpp in Sources */,
 				BB80759819AC3F81009AA92F /* trangulateCmd.h in Sources */,
+				BBF37AAD1AE0889900E2724D /* source.cpp in Sources */,
 				BB3ABBA819AD3B7D0071F7C6 /* objExport.cpp in Sources */,
 				BB39C86D19905902001982B3 /* pluginMain.cpp in Sources */,
 				BB39C87119905902001982B3 /* triangulateCmd.cpp in Sources */,
@@ -1174,6 +1214,10 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				GENERATE_MASTER_OBJECT_FILE = YES;
+				HEADER_SEARCH_PATHS = (
+					.,
+					"$(MAYA_DIRECTORY)/devkit/include/",
+				);
 				INSTALL_PATH = /usr/local/lib;
 				LIBRARY_SEARCH_PATHS = (
 					"$(MAYA_DIRECTORY)/Maya.app/Contents/MacOS",
@@ -1201,7 +1245,6 @@
 					"-rpath",
 				);
 				PREBINDING = NO;
-				"PRELINK_LIBS[arch=*]" = "";
 				PRODUCT_NAME = cameraTraceBuilder;
 				ZERO_LINK = YES;
 			};
@@ -1225,6 +1268,10 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				GENERATE_MASTER_OBJECT_FILE = YES;
+				HEADER_SEARCH_PATHS = (
+					.,
+					"$(MAYA_DIRECTORY)/devkit/include/",
+				);
 				INSTALL_PATH = /usr/local/lib;
 				LIBRARY_SEARCH_PATHS = (
 					"$(MAYA_DIRECTORY)/Maya.app/Contents/MacOS",
@@ -1277,6 +1324,9 @@
 					MAC_PLUGIN,
 					_BOOL,
 					REQUIRE_IOSTREAM,
+					ENABLE_ASSERTS,
+					DLIB_NO_GUI_SUPPORT,
+					DLIB_THREAD_POOL_TIMEOUT,
 				);
 				GCC_VERSION = "";
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
@@ -1305,6 +1355,13 @@
 					"-lOpenMayaRender",
 					"-lOpenMayaUI",
 					"-lpthread",
+					"-fno-gun-keyworks",
+					"-fpascal-strings",
+					"-isysroot",
+					/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk,
+					x86_64,
+					"-headerpad_max_install_names",
+					"-bundle",
 				);
 				PRELINK_LIBS = "";
 				SDKROOT = macosx10.8;
@@ -1334,6 +1391,9 @@
 					MAC_PLUGIN,
 					_BOOL,
 					REQUIRE_IOSTREAM,
+					ENABLE_ASSERTS,
+					DLIB_NO_GUI_SUPPORT,
+					DLIB_THREAD_POOL_TIMEOUT,
 				);
 				GCC_VERSION = "";
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
@@ -1362,6 +1422,13 @@
 					"-lOpenMayaRender",
 					"-lOpenMayaUI",
 					"-lpthread",
+					"-fno-gun-keyworks",
+					"-fpascal-strings",
+					"-isysroot",
+					/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk,
+					x86_64,
+					"-headerpad_max_install_names",
+					"-bundle",
 				);
 				PRELINK_LIBS = "";
 				SDKROOT = macosx10.8;
